@@ -4,55 +4,69 @@
             <element>close_code</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:43:17</sys_created_on>
-            <sys_id>cf82fa59c391431043481cedd401310e</sys_id>
+            <sys_created_on>2026-06-05 03:09:59</sys_created_on>
+            <sys_id>dea872d5c3d1431043481cedd4013157</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">3682ba59c391431043481cedd40131b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:43:17</sys_updated_on>
+            <sys_updated_on>2026-06-05 03:09:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 03:09:59</sys_created_on>
+            <sys_id>9aa872d5c3d1431043481cedd4013158</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">3682ba59c391431043481cedd40131b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 03:09:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:43:17</sys_created_on>
-            <sys_id>8b82fa59c391431043481cedd401310f</sys_id>
+            <sys_created_on>2026-06-05 03:09:59</sys_created_on>
+            <sys_id>56a872d5c3d1431043481cedd4013159</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">3682ba59c391431043481cedd40131b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:43:17</sys_updated_on>
+            <sys_updated_on>2026-06-05 03:09:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>resolved</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:43:17</sys_created_on>
-            <sys_id>4782fa59c391431043481cedd4013110</sys_id>
+            <sys_created_on>2026-06-05 03:09:59</sys_created_on>
+            <sys_id>12a872d5c3d1431043481cedd401315a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">3682ba59c391431043481cedd40131b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:43:17</sys_updated_on>
+            <sys_updated_on>2026-06-05 03:09:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>resolved_by</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:43:17</sys_created_on>
-            <sys_id>0382fa59c391431043481cedd4013111</sys_id>
+            <sys_created_on>2026-06-05 03:09:59</sys_created_on>
+            <sys_id>daa872d5c3d1431043481cedd401315a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">3682ba59c391431043481cedd40131b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:43:17</sys_updated_on>
+            <sys_updated_on>2026-06-05 03:09:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
