@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="threat_category" label="Threat category" language="en" table="x_1776078_cyber_0_cyber_incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>threat_category</element>
+            <help/>
+            <hint/>
+            <label>Threat category</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <plural>Threat categories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:10:19</sys_created_on>
+            <sys_id>940b2ad5c351431043481cedd40131d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Threat category</sys_name>
+            <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+            <sys_update_name>sys_documentation_x_1776078_cyber_0_cyber_incident_threat_category_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:10:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

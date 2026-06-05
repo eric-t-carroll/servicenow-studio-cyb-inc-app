@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="threat_actor_classification" table="x_1776078_cyber_0_cyber_incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>threat_actor_classification</element>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:20:51</sys_created_on>
+            <sys_id>ea6dae1dc351431043481cedd40131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>threat_actor_classification</sys_name>
+            <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+            <sys_update_name>sys_choice_x_1776078_cyber_0_cyber_incident_threat_actor_classification</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:20:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>threat_actor_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nation-state</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:20:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b5dae1dc351431043481cedd4013136</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:20:51</sys_updated_on>
+            <value>Nation_state</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>threat_actor_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cybercriminal</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:21:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>636d225dc351431043481cedd4013128</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:21:03</sys_updated_on>
+            <value>cybercriminal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>threat_actor_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hacktivist</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:21:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e7da25dc351431043481cedd40131f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:21:15</sys_updated_on>
+            <value>hacktivist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>threat_actor_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Insider</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:21:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d98d265dc351431043481cedd4013117</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:21:27</sys_updated_on>
+            <value>insider</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>threat_actor_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:21:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>109d665dc351431043481cedd40131d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:21:39</sys_updated_on>
+            <value>unknown</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

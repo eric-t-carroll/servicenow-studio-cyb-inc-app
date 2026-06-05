@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="persitant_threat" label="Persitant threat" language="en" table="x_1776078_cyber_0_cyber_incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>persitant_threat</element>
+            <help/>
+            <hint/>
+            <label>Persitant threat</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <plural>Persitant threats</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:07:08</sys_created_on>
+            <sys_id>e14aaa55c351431043481cedd40131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Persitant threat</sys_name>
+            <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+            <sys_update_name>sys_documentation_x_1776078_cyber_0_cyber_incident_persitant_threat_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:07:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
