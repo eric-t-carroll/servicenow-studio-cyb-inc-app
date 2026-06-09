@@ -17,16 +17,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:43:16</sys_created_on>
+            <sys_created_on>2026-06-09 00:34:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0b82ba59c391431043481cedd40131be</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>5a7b36a283d18b101d28c430ceaad355</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1776078_cyber_0_cyber_incident" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">fa82ba59c391431043481cedd40131b6</sys_ui_form>
-            <sys_ui_section caption="Classification" display_value="Classification" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">fe82ba59c391431043481cedd40131b2</sys_ui_section>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">1a7b36a283d18b101d28c430ceaad350</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:43:16</sys_updated_on>
+            <sys_updated_on>2026-06-09 00:37:00</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -34,13 +34,27 @@
             <sys_created_on>2026-06-05 02:43:16</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b82ba59c391431043481cedd40131be</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1776078_cyber_0_cyber_incident" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">fa82ba59c391431043481cedd40131b6</sys_ui_form>
+            <sys_ui_section caption="Classification" display_value="Classification" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">fe82ba59c391431043481cedd40131b2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-09 00:37:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:43:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
             <sys_id>c382ba59c391431043481cedd40131c5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1776078_cyber_0_cyber_incident" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">fa82ba59c391431043481cedd40131b6</sys_ui_form>
             <sys_ui_section caption="Resolution" display_value="Resolution" name="x_1776078_cyber_0_cyber_incident" sys_domain="global" view="Default view">3682ba59c391431043481cedd40131b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:43:16</sys_updated_on>
+            <sys_updated_on>2026-06-09 00:37:00</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1776078_cyber_0_cyber_incident</name>
