@@ -1,100 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="acsc_incident_severity" table="x_1776078_cyber_0_cyber_incident" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="threat_actor_classification" table="x_1776078_cyber_0_cyber_incident" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>acsc_incident_severity</element>
+            <element>threat_actor_classification</element>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:08:59</sys_created_on>
-            <sys_id>74baea95c351431043481cedd4013111</sys_id>
+            <sys_created_on>2026-06-05 02:20:51</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>acsc_incident_severity</sys_name>
+            <sys_name>threat_actor_classification</sys_name>
             <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
             <sys_policy/>
             <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
-            <sys_update_name>sys_choice_x_1776078_cyber_0_cyber_incident_acsc_incident_severity</sys_update_name>
+            <sys_update_name>sys_choice_x_1776078_cyber_0_cyber_incident_threat_actor_classification</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:08:59</sys_updated_on>
+            <sys_updated_on>2026-06-05 02:20:51</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>acsc_incident_severity</element>
+            <element>threat_actor_classification</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Critical</label>
+            <label>Nation-state</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:08:59</sys_created_on>
+            <sys_created_on>2026-06-05 02:20:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>60aaaa95c351431043481cedd40131be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:08:59</sys_updated_on>
-            <value>critical</value>
+            <sys_updated_on>2026-06-05 02:20:51</sys_updated_on>
+            <value>Nation_state</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>acsc_incident_severity</element>
+            <element>threat_actor_classification</element>
             <hint/>
             <inactive>false</inactive>
-            <label>High</label>
+            <label>Cybercriminal</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:09:12</sys_created_on>
+            <sys_created_on>2026-06-05 02:21:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f1ba6e95c351431043481cedd40131ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:09:12</sys_updated_on>
-            <value>high</value>
+            <sys_updated_on>2026-06-05 02:21:03</sys_updated_on>
+            <value>cybercriminal</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>acsc_incident_severity</element>
+            <element>threat_actor_classification</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Medium</label>
+            <label>Hacktivist</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:09:24</sys_created_on>
+            <sys_created_on>2026-06-05 02:21:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>34caee95c351431043481cedd401318f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:09:24</sys_updated_on>
-            <value>medium</value>
+            <sys_updated_on>2026-06-05 02:21:15</sys_updated_on>
+            <value>hacktivist</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>acsc_incident_severity</element>
+            <element>threat_actor_classification</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Low</label>
+            <label>Insider</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:09:37</sys_created_on>
+            <sys_created_on>2026-06-05 02:21:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f7ca62d5c351431043481cedd401314e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:09:37</sys_updated_on>
-            <value>low</value>
+            <sys_updated_on>2026-06-05 02:21:27</sys_updated_on>
+            <value>insider</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>threat_actor_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 02:21:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 02:21:39</sys_updated_on>
+            <value>unknown</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-06-05 03:01:25</sys_updated_on>
         <table>x_1776078_cyber_0_cyber_incident</table>
-        <ui_policy display_value="Show Containment Detail when state is Containment">ad263a51c3d1431043481cedd4013101</ui_policy>
+        <ui_policy display_value="Show Containment Detail when state is &gt;= Containment">ad263a51c3d1431043481cedd4013101</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>true</visible>

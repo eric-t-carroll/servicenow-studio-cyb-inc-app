@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-05 02:28:23</sys_created_on>
-            <sys_id>c52fe251c391431043481cedd4013137</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>MITRE ATT&amp;CK tactic</sys_name>
             <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>

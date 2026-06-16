@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="attack_vector" table="x_1776078_cyber_0_cyber_incident">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-05 02:14:37</sys_created_on>
-        <sys_id>97eb2a59c351431043481cedd4013184</sys_id>
         <sys_name>Attack vector</sys_name>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
         <sys_policy/>

@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-06-05 03:05:28</sys_updated_on>
         <table>x_1776078_cyber_0_cyber_incident</table>
-        <ui_policy display_value="On Hold Reason mandatory when On Hold">bd477ed1c3d1431043481cedd40131f2</ui_policy>
+        <ui_policy display_value="On Hold Reason mandatory and visible when On Hold">bd477ed1c3d1431043481cedd40131f2</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>true</visible>

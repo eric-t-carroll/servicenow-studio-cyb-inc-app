@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-05 02:17:45</sys_created_on>
-            <sys_id>d1bc26d9c351431043481cedd401317c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>acsc_essential_eight_control_gap</sys_name>
             <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2026-06-05 02:17:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>dfac26d9c351431043481cedd4013163</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-05 02:18:25</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2026-06-05 02:17:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0abc66d9c351431043481cedd40131c5</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-05 02:18:21</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2026-06-05 02:18:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>70cc2ad9c351431043481cedd401311a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-05 02:18:12</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2026-06-05 02:18:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>17dcead9c351431043481cedd401312f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-05 02:18:42</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2026-06-05 02:19:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>40fc6ed9c351431043481cedd40131a8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-05 02:19:01</sys_updated_on>
@@ -130,7 +124,6 @@
             <sys_created_on>2026-06-05 02:19:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d10d221dc351431043481cedd40131b7</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-05 02:20:01</sys_updated_on>
@@ -150,7 +143,6 @@
             <sys_created_on>2026-06-05 02:19:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>591da21dc351431043481cedd40131cb</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-05 02:19:57</sys_updated_on>
@@ -170,7 +162,6 @@
             <sys_created_on>2026-06-05 02:19:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cd2d261dc351431043481cedd401318d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-05 02:19:46</sys_updated_on>

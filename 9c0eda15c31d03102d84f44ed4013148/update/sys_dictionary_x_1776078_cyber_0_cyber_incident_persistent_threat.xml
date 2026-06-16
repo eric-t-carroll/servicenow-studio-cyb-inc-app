@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-09 00:21:23</sys_created_on>
-        <sys_id>f368f6aa83918b101d28c430ceaad320</sys_id>
         <sys_name>Persistent threat</sys_name>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
         <sys_policy/>

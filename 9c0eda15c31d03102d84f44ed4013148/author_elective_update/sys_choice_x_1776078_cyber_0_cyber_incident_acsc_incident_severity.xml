@@ -1,120 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="close_code" table="x_1776078_cyber_0_cyber_incident" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="acsc_incident_severity" table="x_1776078_cyber_0_cyber_incident" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>close_code</element>
+            <element>acsc_incident_severity</element>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:31:20</sys_created_on>
-            <sys_id>0cdfee91c391431043481cedd4013125</sys_id>
+            <sys_created_on>2026-06-05 02:08:59</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>close_code</sys_name>
+            <sys_name>acsc_incident_severity</sys_name>
             <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
             <sys_policy/>
             <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
-            <sys_update_name>sys_choice_x_1776078_cyber_0_cyber_incident_close_code</sys_update_name>
+            <sys_update_name>sys_choice_x_1776078_cyber_0_cyber_incident_acsc_incident_severity</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:31:20</sys_updated_on>
+            <sys_updated_on>2026-06-05 02:08:59</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>close_code</element>
+            <element>acsc_incident_severity</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Threat neutralised</label>
+            <label>Critical</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:31:20</sys_created_on>
+            <sys_created_on>2026-06-05 02:08:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8acfae91c391431043481cedd40131bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:31:20</sys_updated_on>
-            <value>threat_neutralised</value>
+            <sys_updated_on>2026-06-05 02:08:59</sys_updated_on>
+            <value>critical</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>close_code</element>
+            <element>acsc_incident_severity</element>
             <hint/>
             <inactive>false</inactive>
-            <label>False positive</label>
+            <label>High</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:31:33</sys_created_on>
+            <sys_created_on>2026-06-05 02:09:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>85df22d1c391431043481cedd401315e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:31:33</sys_updated_on>
-            <value>false_positive</value>
+            <sys_updated_on>2026-06-05 02:09:12</sys_updated_on>
+            <value>high</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>close_code</element>
+            <element>acsc_incident_severity</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Handed to law enforcement</label>
+            <label>Medium</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:31:50</sys_created_on>
+            <sys_created_on>2026-06-05 02:09:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>70ef6e5dc351431043481cedd40131be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:31:50</sys_updated_on>
-            <value>law_enforcement</value>
+            <sys_updated_on>2026-06-05 02:09:24</sys_updated_on>
+            <value>medium</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>close_code</element>
+            <element>acsc_incident_severity</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Resolved by vendor</label>
+            <label>Low</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:32:08</sys_created_on>
+            <sys_created_on>2026-06-05 02:09:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a8ff26d1c391431043481cedd4013139</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:32:08</sys_updated_on>
-            <value>vendor_resolved</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>close_code</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Unresolved</label>
-            <language>en</language>
-            <name>x_1776078_cyber_0_cyber_incident</name>
-            <sequence>5</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:32:21</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>490072d1c391431043481cedd40131f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:32:21</sys_updated_on>
-            <value>unresolved</value>
+            <sys_updated_on>2026-06-05 02:09:37</sys_updated_on>
+            <value>low</value>
         </sys_choice>
     </sys_choice>
 </record_update>

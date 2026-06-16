@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Cyber Security team personnel — CRW access to Cyber Incident records</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>RPvyu9rTGVYbSm4WyGLoXYJndMnXCOmCi0j7WjbAkhQ=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1776078_cyber_0.security_analyst</name>
