@@ -71,7 +71,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Notification required to ASD" max_length="40" name="notification_required_to_asd" type="boolean"/>
-        <element label="Persistent threat" max_length="255" name="persistent_threat" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Persistent threat" max_length="255" name="persistent_threat" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="ACSC Incident Severity" max_length="40" name="acsc_incident_severity" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Medium" sequence="3" value="medium"/>
