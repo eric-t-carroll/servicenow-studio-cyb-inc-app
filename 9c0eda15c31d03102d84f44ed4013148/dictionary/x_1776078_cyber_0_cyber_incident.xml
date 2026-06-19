@@ -7,6 +7,7 @@
                 <element inactive_on_update="false" label="Application whitelisting" sequence="5" value="app_whitelisting"/>
                 <element inactive_on_update="false" label="Hardening user applications" sequence="7" value="harden_apps"/>
                 <element inactive_on_update="false" label="Multi-factor authentication" sequence="3" value="mfa"/>
+                <element inactive_on_update="false" label="Undetermined" sequence="9" value="undetermined"/>
                 <element inactive_on_update="false" label="Backups" sequence="8" value="backups"/>
                 <element inactive_on_update="false" label="Disabling macros" sequence="6" value="Disabling_macros"/>
                 <element inactive_on_update="false" label="Application patching" sequence="1" value="app_patching"/>
@@ -14,6 +15,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Data classification of affected assets" max_length="40" name="data_classification_of_affected_assets" type="choice">
             <choice>
+                <element inactive_on_update="false" label="None Identified" sequence="4" value="none"/>
                 <element inactive_on_update="false" label="Sensitive operational information" sequence="1" value="sensitive_operational"/>
                 <element inactive_on_update="false" label="Private information" sequence="2" value="private_information"/>
                 <element inactive_on_update="false" label="Critical infrastructure information" sequence="3" value="critical_infrastructure"/>
@@ -39,19 +41,20 @@
                 <element inactive_on_update="false" label="Resolved by vendor" sequence="4" value="vendor_resolved"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user_role" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Containment notes" max_length="4000" name="containment_notes" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Attack vector" max_length="40" name="attack_vector" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Third-party" sequence="6" value="third_party"/>
                 <element inactive_on_update="false" label="Vulnerability exploit" sequence="3" value="vuln_exploit"/>
                 <element inactive_on_update="false" label="Insider threat" sequence="4" value="insider_threat"/>
+                <element inactive_on_update="false" label="Unknown" sequence="7" value="unknown"/>
                 <element inactive_on_update="false" label="Phishing" sequence="1" value="phishing"/>
                 <element inactive_on_update="false" label="Removable media" sequence="5" value="removable_media"/>
                 <element inactive_on_update="false" label="Credential stuffing" sequence="2" value="credential_stuffing"/>
             </choice>
         </element>
-        <element label="MITRE ATT&amp;CK tactic" max_length="100" name="mitre_att_ck_tactic" type="string"/>
+        <element label="MITRE ATT&amp;CK tactic" max_length="100" name="mitre_att_ck_tactic" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Threat actor classification" max_length="40" name="threat_actor_classification" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unknown" sequence="5" value="unknown"/>
@@ -73,7 +76,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Notification required to ASD" max_length="40" name="notification_required_to_asd" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Persistent threat" max_length="255" name="persistent_threat" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="ACSC Incident Severity" max_length="40" name="acsc_incident_severity" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ACSC Incident Severity" mandatory="true" max_length="40" name="acsc_incident_severity" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Medium" sequence="3" value="medium"/>
                 <element inactive_on_update="false" label="Critical" sequence="1" value="critical"/>
@@ -84,6 +87,7 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Threat category" max_length="40" name="threat_category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unauthorised access" sequence="6" value="unauthorised_access"/>
+                <element inactive_on_update="false" label="Not determined" sequence="7" value="not_determined"/>
                 <element inactive_on_update="false" label="Data breach" sequence="2" value="data_breach"/>
                 <element inactive_on_update="false" label="Business email compromise" sequence="4" value="bec"/>
                 <element inactive_on_update="false" label="Ransomware" sequence="1" value="ransomware"/>

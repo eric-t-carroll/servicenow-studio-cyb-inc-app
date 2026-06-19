@@ -40,15 +40,7 @@
         <item_table/>
         <mandatory>true</mandatory>
         <message/>
-        <message_html><![CDATA[<p>LEGAL NOTIFICATION &mdash; CRITICAL INFRASTRUCTURE ALERT<br><br>A cyber incident has been identified affecting systems containing Critical Infrastructure Information.<br>This triggers mandatory reporting obligations under the Security of Critical Infrastructure Act 2018 (SOCI Act).&nbsp;</p>
-<p>&nbsp;</p>
-<p>Cyber Incident: ${number}</p>
-<p>Summary: ${short_description}</p>
-<p>Severity: ${acsc_incident_severity}</p>
-<p>Data Classification: Critical Infrastructure Information&nbsp;</p>
-<p>&nbsp;</p>
-<p>Cyber Security and Legal team action required:&nbsp;</p>
-<div>Mandatory notification to the Australian Signals Directorate (ASD) is required.<br>Engage legal counsel immediately. SOCI Act reporting timeframes are strictly enforced.<br><br>${URI_REF}</div>]]></message_html>
+        <message_html><![CDATA[<p>&lt;table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f4f4;padding:20px 0;"&gt;<br>&nbsp; &lt;tr&gt;<br>&nbsp; &nbsp; &lt;td align="center"&gt;<br>&nbsp; &nbsp; &nbsp; &lt;table width="600" cellpadding="0" cellspacing="0" style="background-color:#ffffff;border-radius:6px;overflow:hidden;font-family:Arial,sans-serif;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td style="background-color:#1a1a2e;padding:24px 32px;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:0;color:#ffffff;font-size:18px;font-weight:bold;letter-spacing:1px;"&gt;CYBER INCIDENT MANAGEMENT&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:4px 0 0;color:#a0a8c0;font-size:12px;"&gt;Restricted &mdash; Authorised Personnel Only&lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td style="padding:32px;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:0 0 16px;color:#b00020;font-size:15px;font-weight:bold;line-height:1.6;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CRITICAL LEGAL NOTIFICATION &mdash; CRITICAL INFRASTRUCTURE INFORMATION<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:0 0 16px;color:#1a1a2e;font-size:14px;line-height:1.6;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A cyber incident has been identified affecting Critical Infrastructure Information.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This triggers mandatory reporting obligations under the Security of Critical<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Infrastructure Act 2018 (SOCI Act).<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:0 0 8px;color:#1a1a2e;font-size:14px;line-height:1.6;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;strong&gt;Incident:&lt;/strong&gt; ${number}&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;strong&gt;Summary:&lt;/strong&gt; ${short_description}&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;strong&gt;Severity:&lt;/strong&gt; ${acsc_incident_severity}&lt;br&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;strong&gt;Data Classification:&lt;/strong&gt; Critical Infrastructure Information<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:16px 0 0;color:#b00020;font-size:13px;line-height:1.6;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Legal team action required: Mandatory notification to the Australian Signals<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Directorate (ASD) is required. Engage legal counsel immediately. SOCI Act reporting<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; timeframes are strictly enforced.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:8px 0 0;color:#1a1a2e;font-size:13px;line-height:1.6;font-style:italic;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Note: ASD notification flag has been automatically set on this record.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:16px 0 0;color:#1a1a2e;font-size:14px;line-height:1.6;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ${URI_REF}<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;tr&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;td style="background-color:#f4f4f4;padding:16px 32px;border-top:1px solid #e0e0e0;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p style="margin:0;color:#888888;font-size:11px;line-height:1.5;"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This notification was generated by the Cyber Incident Management system.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;Access is restricted to authorised MIM and Cyber Security team personnel.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;Do not forward this email outside of authorised channels.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/td&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/tr&gt;<br>&nbsp; &nbsp; &nbsp; &lt;/table&gt;<br>&nbsp; &nbsp; &lt;/td&gt;<br>&nbsp; &lt;/tr&gt;<br>&lt;/table&gt;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Critical Infrastructure Information</name>
@@ -70,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b261e73a83950f101d28c430ceaad3a9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Critical Infrastructure Information</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
@@ -78,7 +70,7 @@
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>sysevent_email_action_b261e73a83950f101d28c430ceaad3a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-09 22:04:43</sys_updated_on>
+        <sys_updated_on>2026-06-16 06:14:00</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

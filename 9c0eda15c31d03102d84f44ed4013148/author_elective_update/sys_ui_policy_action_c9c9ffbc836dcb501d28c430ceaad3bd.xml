@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>acsc_incident_severity</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 04:53:20</sys_created_on>
+        <sys_id>c9c9ffbc836dcb501d28c430ceaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acsc_incident_severity</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c9c9ffbc836dcb501d28c430ceaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 04:53:20</sys_updated_on>
+        <table>x_1776078_cyber_0_cyber_incident</table>
+        <ui_policy display_value="ACSC Incident Severity, Data Classification, Threat Category &amp; MITRE ATT&amp;CK mandatory after investigation &amp; Diagnosis phase">7b69f3bc836dcb501d28c430ceaad39d</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=c9c9ffbc836dcb501d28c430ceaad3bd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>740c5a9193518b9cd9f6ddd548373c67</instance_id>
+        <instance_name>dev398874</instance_name>
+        <name>sys_ui_policy_action_c9c9ffbc836dcb501d28c430ceaad3bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>acsc_incident_severity</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-16 04:53:20</sys_created_on><sys_id>c9c9ffbc836dcb501d28c430ceaad3bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>acsc_incident_severity</sys_name><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_update_name>sys_ui_policy_action_c9c9ffbc836dcb501d28c430ceaad3bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-16 04:53:20</sys_updated_on><table>x_1776078_cyber_0_cyber_incident</table><ui_policy display_value="ACSC Incident Severity, Data Classification, Threat Category &amp; MITRE ATT&amp;CK mandatory after investigation &amp; Diagnosis phase">7b69f3bc836dcb501d28c430ceaad39d</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=c9c9ffbc836dcb501d28c430ceaad3bd"/></record_update>]]></payload>
+        <payload_hash>-11321834</payload_hash>
+        <record_name>acsc_incident_severity</record_name>
+        <reverted_from/>
+        <source>2f90184d83210f501d28c430ceaad3bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 06:33:05</sys_created_on>
+        <sys_id>f4a05c4d83210f501d28c430ceaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ecf2233340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 06:33:05</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>e7c973fcef6dcb5071287eff0690d80c</update_guid>
+        <update_guid_history>e7c973fcef6dcb5071287eff0690d80c:-11321834,ddaf40c992210f50029b3d3c504aa77d:1585143180,e7c973fcef6dcb5071287eff0690d80c:-11321834</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 21:19:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>029d3513d7d244378da9496403564661</sys_id>
+        <sys_metadata>c9c9ffbc836dcb501d28c430ceaad3bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acsc_incident_severity</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent display_value="">7b69f3bc836dcb501d28c430ceaad39d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c9c9ffbc836dcb501d28c430ceaad3bd</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c9c9ffbc836dcb501d28c430ceaad3bd">f4a05c4d83210f501d28c430ceaad35e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 21:19:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

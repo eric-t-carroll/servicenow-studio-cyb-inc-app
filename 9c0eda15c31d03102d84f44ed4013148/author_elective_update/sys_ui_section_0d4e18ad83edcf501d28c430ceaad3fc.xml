@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="0d4e18ad83edcf501d28c430ceaad3fc" sys_domain="global" table="x_1776078_cyber_0_cyber_incident" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-17 20:49:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d4e18ad83edcf501d28c430ceaad3fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1776078_cyber_0_cyber_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+            <sys_update_name>sys_ui_section_0d4e18ad83edcf501d28c430ceaad3fc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-17 20:49:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>740c5a9193518b9cd9f6ddd548373c67</instance_id>
+        <instance_name>dev398874</instance_name>
+        <name>sys_ui_section_0d4e18ad83edcf501d28c430ceaad3fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="0d4e18ad83edcf501d28c430ceaad3fc" sys_domain="global" table="x_1776078_cyber_0_cyber_incident" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1776078_cyber_0_cyber_incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-17 20:49:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0d4e18ad83edcf501d28c430ceaad3fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1776078_cyber_0_cyber_incident</sys_name><sys_overrides/><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_update_name>sys_ui_section_0d4e18ad83edcf501d28c430ceaad3fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-17 20:49:36</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1795279262</payload_hash>
+        <record_name>Cyber Incident</record_name>
+        <reverted_from/>
+        <source>299a186183edcf501d28c430ceaad3f1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 20:49:36</sys_created_on>
+        <sys_id>dd4e58ad83edcf501d28c430ceaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ed758bad00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 20:49:36</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>914e58ad8dedcf507b4fc741f9e6bb74</update_guid>
+        <update_guid_history>914e58ad8dedcf507b4fc741f9e6bb74:-1795279262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 20:50:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1f7c5841ed364cf7a6e51451a11a6a59</sys_id>
+        <sys_metadata>0d4e18ad83edcf501d28c430ceaad3fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent display_value="Cyber Incident">39022e1dc31d03102d84f44ed4013130</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_ui_section_0d4e18ad83edcf501d28c430ceaad3fc</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_0d4e18ad83edcf501d28c430ceaad3fc">dd4e58ad83edcf501d28c430ceaad374</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 20:50:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

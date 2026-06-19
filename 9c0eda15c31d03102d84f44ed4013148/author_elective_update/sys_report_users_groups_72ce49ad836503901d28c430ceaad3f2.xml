@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id display_value="Cyber Security" name="Cyber Security">b7aa36d9c3d1431043481cedd40131f1</group_id>
+        <report_id display_value="Incidents by State">e2ae856d836503901d28c430ceaad3aa</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 00:21:37</sys_created_on>
+        <sys_id>72ce49ad836503901d28c430ceaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e2ae856d836503901d28c430ceaad3aa</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_report_users_groups_72ce49ad836503901d28c430ceaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 00:21:37</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>740c5a9193518b9cd9f6ddd548373c67</instance_id>
+        <instance_name>dev398874</instance_name>
+        <name>sys_report_users_groups_72ce49ad836503901d28c430ceaad3f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id display_value="Cyber Security" name="Cyber Security">b7aa36d9c3d1431043481cedd40131f1</group_id><report_id display_value="Incidents by State">e2ae856d836503901d28c430ceaad3aa</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-18 00:21:37</sys_created_on><sys_id>72ce49ad836503901d28c430ceaad3f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>e2ae856d836503901d28c430ceaad3aa</sys_name><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_update_name>sys_report_users_groups_72ce49ad836503901d28c430ceaad3f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-18 00:21:37</sys_updated_on><user_id/></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>-1734714521</payload_hash>
+        <record_name>e2ae856d836503901d28c430ceaad3aa</record_name>
+        <reverted_from/>
+        <source>65860d6d832503901d28c430ceaad3ed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 00:21:37</sys_created_on>
+        <sys_id>72ce49ad836503901d28c430ceaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ed81ad3cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 00:21:37</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>32ce49adfd6503908f2334b150a482f4</update_guid>
+        <update_guid_history>32ce49adfd6503908f2334b150a482f4:-1734714521</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 00:45:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>a44b49682d2c4fe6ad61a218ef3a8b84</sys_id>
+        <sys_metadata>72ce49ad836503901d28c430ceaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e2ae856d836503901d28c430ceaad3aa</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_72ce49ad836503901d28c430ceaad3f2</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_72ce49ad836503901d28c430ceaad3f2">72ce49ad836503901d28c430ceaad3f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 00:45:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

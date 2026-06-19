@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0df299e583a503901d28c430ceaad3a2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>true</can_share><can_write>false</can_write><dashboard display_value="Cyber Incident Management Dashboard">3841d5e183a503901d28c430ceaad3fa</dashboard><group display_value="Cyber Security" name="Cyber Security">b7aa36d9c3d1431043481cedd40131f1</group><owner>true</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-18 00:39:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0df299e583a503901d28c430ceaad3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3841d5e183a503901d28c430ceaad3fa</sys_name><sys_overrides/><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_update_name>par_dashboard_permission_0df299e583a503901d28c430ceaad3a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-18 00:39:47</sys_updated_on><user/></par_dashboard_permission></record_update>]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-19 21:31:01</sys_created_on>
+        <sys_id>5fea7ac2832147901d28c430ceaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cyber Incident Management Dashboard</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_metadata_link_5fea7ac2832147901d28c430ceaad3d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-19 21:31:01</sys_updated_on>
+        <tablename>par_dashboard_permission</tablename>
+    </sys_metadata_link>
+</record_update>
