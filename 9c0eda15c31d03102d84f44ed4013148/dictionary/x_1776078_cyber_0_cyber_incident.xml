@@ -87,7 +87,9 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Threat category" max_length="40" name="threat_category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unauthorised access" sequence="6" value="unauthorised_access"/>
+                <element inactive_on_update="false" label="Phishing" sequence="0" value="Phishing"/>
                 <element inactive_on_update="false" label="Not determined" sequence="7" value="not_determined"/>
+                <element inactive_on_update="false" label="Malware" sequence="0" value="Malware"/>
                 <element inactive_on_update="false" label="Data breach" sequence="2" value="data_breach"/>
                 <element inactive_on_update="false" label="Business email compromise" sequence="4" value="bec"/>
                 <element inactive_on_update="false" label="Ransomware" sequence="1" value="ransomware"/>

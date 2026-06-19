@@ -20,6 +20,44 @@
             <element>threat_category</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Malware</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-19 23:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-19 23:02:26</sys_updated_on>
+            <value>Malware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>threat_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phishing</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-19 23:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-19 23:02:26</sys_updated_on>
+            <value>Phishing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>threat_category</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Ransomware</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>

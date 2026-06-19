@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="db9b874683a147901d28c430ceaad361" extends="sys_import_set_row" label="Cyber Incidents Import" max_length="40" name="x_1776078_cyber_0_cyber_incidents_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="69" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=short_description" label="short_description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=threat_category" label="threat_category" max_length="40" name="u_threat_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=severity" label="severity" max_length="40" name="u_severity" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=caller" label="caller" max_length="40" name="u_caller" type="string"/>
+    </element>
+</database>
