@@ -96,7 +96,7 @@
             <element>acsc_essential_eight_control_gap</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Application whitelisting</label>
+            <label>Application control</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>5</sequence>
@@ -105,17 +105,17 @@
             <sys_created_on>2026-06-05 02:19:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:19:01</sys_updated_on>
-            <value>app_whitelisting</value>
+            <sys_updated_on>2026-06-21 10:09:46</sys_updated_on>
+            <value>app_control</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>acsc_essential_eight_control_gap</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Disabling macros</label>
+            <label>Configure Microsoft Office macro settings</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>6</sequence>
@@ -124,10 +124,10 @@
             <sys_created_on>2026-06-05 02:19:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:20:01</sys_updated_on>
-            <value>Disabling_macros</value>
+            <sys_updated_on>2026-06-21 10:12:16</sys_updated_on>
+            <value>configure_macros</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

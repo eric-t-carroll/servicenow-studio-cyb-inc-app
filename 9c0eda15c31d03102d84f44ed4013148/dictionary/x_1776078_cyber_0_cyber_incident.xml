@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="39022e1dc31d03102d84f44ed4013130" extends="task" label="Cyber Incident" max_length="40" name="x_1776078_cyber_0_cyber_incident" type="collection">
+        <element choice="1" label="Suggested SOCI Classification" max_length="40" name="suggested_soci_classification" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element label="Date/Time Became Aware" max_length="255" name="date_time_became_aware" type="glide_date_time"/>
+        <element label="Payment Date/Time" max_length="255" name="payment_date_time" type="glide_date_time"/>
+        <element choice="1" default="Pending Assessment" label="Eligible Data Breach Determination" max_length="40" name="eligible_data_breach_determination" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Eligible" sequence="2" value="eligible"/>
+                <element inactive_on_update="false" label="Pending Assessment" sequence="1" value="pending_assessment"/>
+                <element inactive_on_update="false" label="Not Eligible - Low Risk" sequence="4" value="not_eligible_Low_risk"/>
+                <element inactive_on_update="false" label="Not Eligible – Remediated" sequence="3" value="not_eligible_remediated"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="ACSC Essential Eight control gap" max_length="40" name="acsc_essential_eight_control_gap" type="choice">
             <choice>
                 <element inactive_on_update="false" label="OS patching" sequence="2" value="os_patching"/>
                 <element inactive_on_update="false" label="Restricting admin privileges" sequence="4" value="restrict_admin"/>
-                <element inactive_on_update="false" label="Application whitelisting" sequence="5" value="app_whitelisting"/>
+                <element inactive_on_update="false" label="Application control" sequence="5" value="app_control"/>
                 <element inactive_on_update="false" label="Hardening user applications" sequence="7" value="harden_apps"/>
                 <element inactive_on_update="false" label="Multi-factor authentication" sequence="3" value="mfa"/>
                 <element inactive_on_update="false" label="Undetermined" sequence="9" value="undetermined"/>
                 <element inactive_on_update="false" label="Backups" sequence="8" value="backups"/>
-                <element inactive_on_update="false" label="Disabling macros" sequence="6" value="Disabling_macros"/>
+                <element inactive_on_update="false" label="Configure Microsoft Office macro settings" sequence="6" value="configure_macros"/>
                 <element inactive_on_update="false" label="Application patching" sequence="1" value="app_patching"/>
             </choice>
         </element>
+        <element label="Awareness Basis" max_length="4000" name="awareness_basis" type="string"/>
+        <element choice="1" default="No Active Notifications" function_definition="No Active Notifications" label="Notification SLA Status" max_length="40" name="notification_sla_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Breached" sequence="4" value="breached"/>
+                <element inactive_on_update="false" label="On Track" sequence="2" value="on_track"/>
+                <element inactive_on_update="false" label="At Risk" sequence="3" value="at_risk"/>
+                <element inactive_on_update="false" label="No Active Notifications" sequence="1" value="no_active_notifications"/>
+            </choice>
+        </element>
+        <element label="Acknowledged Time" max_length="255" name="acknowledged_time" type="glide_date_time"/>
+        <element label="Ransom/Extortion Payment Made" max_length="255" name="ransom_extortion_payment_made" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Data classification of affected assets" max_length="40" name="data_classification_of_affected_assets" type="choice">
             <choice>
                 <element inactive_on_update="false" label="None Identified" sequence="4" value="none"/>
@@ -42,6 +66,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Ransom/Extortion Demand Resolved" max_length="255" name="ransom_extortion_demand_resolved" type="boolean"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Containment notes" max_length="4000" name="containment_notes" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Attack vector" max_length="40" name="attack_vector" type="choice">
             <choice>

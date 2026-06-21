@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="notification_sla_status" table="x_1776078_cyber_0_cyber_incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>notification_sla_status</element>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 10:31:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>notification_sla_status</sys_name>
+            <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+            <sys_update_name>sys_choice_x_1776078_cyber_0_cyber_incident_notification_sla_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 10:31:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_sla_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Active Notifications</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 10:31:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 10:31:15</sys_updated_on>
+            <value>no_active_notifications</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_sla_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Track</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 10:31:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 10:31:38</sys_updated_on>
+            <value>on_track</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_sla_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>At Risk</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 10:31:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 10:31:51</sys_updated_on>
+            <value>at_risk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_sla_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Breached</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-21 10:32:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-21 10:32:07</sys_updated_on>
+            <value>breached</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
