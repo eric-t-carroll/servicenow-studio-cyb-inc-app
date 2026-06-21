@@ -78,10 +78,11 @@
         <element attributes="edge_encryption_enabled=true" label="Persistent threat" max_length="255" name="persistent_threat" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="ACSC Incident Severity" mandatory="true" max_length="40" name="acsc_incident_severity" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Medium" sequence="3" value="medium"/>
-                <element inactive_on_update="false" label="Critical" sequence="1" value="critical"/>
-                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
-                <element inactive_on_update="false" label="Low" sequence="4" value="low"/>
+                <element hint="Select when there is sustained disruption to essential systems and the services they support." inactive_on_update="false" label="C1 - Sustained Disruption" sequence="1" value="c1"/>
+                <element hint="Select for a low-level malicious attack with limited scope and no confirmed compromise." inactive_on_update="false" label="C4 - Low-Level Attack" sequence="4" value="c4"/>
+                <element hint="Select when compromise is broad across systems, accounts, or data, but essential services are not yet experiencing sustained disruption." inactive_on_update="false" label="C2 - Extensive Compromise" sequence="2" value="c2"/>
+                <element hint="Select when compromise is contained to a limited number of systems, or a deliberate, coordinated attack is underway without broader compromise." inactive_on_update="false" label="C3 - Isolated/Coordinated Compromise" sequence="3" value="c3"/>
+                <element hint="Select when an attack was attempted but unsuccessful - no compromise occurred." inactive_on_update="false" label="C6 - Unsuccessful Attack" sequence="6" value="c6"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Threat category" max_length="40" name="threat_category" type="choice">
