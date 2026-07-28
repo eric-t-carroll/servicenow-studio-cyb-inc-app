@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>Create Cyber Incident</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var newCyberInc = request.body.data;
+	var myCyberInc = new GlideRecord('x_1776078_cyber_0_cyber_incident');
+	myCyberInc.newRecord();
+	myCyberInc.setValue('short_description', newCyberInc.short_description);
+	myCyberInc.setValue('description', newCyberInc.description);
+	myCyberInc.setValue('threat_category', newCyberInc.threat_category);
+	myCyberInc.setValue('attack_vector', newCyberInc.attack_vector);
+	myCyberInc.setValue('caller_id', newCyberInc.caller_id);
+	myCyberInc.setValue('impact', newCyberInc.impact);
+	myCyberInc.setValue('urgency', newCyberInc.urgency);
+	myCyberInc.insert();
+	response.setStatus(201);
+	response.setBody({
+		sys_id: myCyberInc.sys_id.toString(),
+		number: myCyberInc.getValue('number')
+	});
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1776078_cyber_0/cyber_incident_api/incident</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/incident</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-28 09:22:05</sys_created_on>
+        <sys_id>fbb981a683d2075085257f29feaad3c8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create Cyber Incident</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_ws_operation_fbb981a683d2075085257f29feaad3c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-28 09:41:11</sys_updated_on>
+        <web_service_definition display_value="Cyber Incident API">4d0efc6e8352075085257f29feaad38a</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
