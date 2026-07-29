@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When 'none identified' is selected, the other choices are not available and vice versa.</description>
+        <field>data_classification_of_affected_assets</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Data classification - mutual exclusivity</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    if (newValue.toString().indexOf('none') !== -1) {
+        if (g_form.getValue('data_classification_of_affected_assets') === 'none') {
+            return; // already set correctly, don't fire again
+        }
+        g_form.clearValue('data_classification_of_affected_assets');
+        g_form.setValue('data_classification_of_affected_assets', 'none');
+        g_form.addInfoMessage('None Identified clears all other data classifications — other values have been removed.');
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-29 07:03:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d37339b2835a075085257f29feaad397</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Data classification - mutual exclusivity</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_script_client_d37339b2835a075085257f29feaad397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-29 07:57:18</sys_updated_on>
+        <table>x_1776078_cyber_0_cyber_incident</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
