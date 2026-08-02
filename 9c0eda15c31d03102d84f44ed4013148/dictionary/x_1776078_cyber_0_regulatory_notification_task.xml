@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8e14924483aa8b1044779cb6feaad3f7" extends="task" label="Regulatory Notification Task" max_length="40" name="x_1776078_cyber_0_regulatory_notification_task" type="collection">
+        <element choice="1" label="Close code" max_length="40" name="close_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+                <element inactive_on_update="false" label="Submitted On Time" sequence="0" value="submitted_on_time"/>
+                <element inactive_on_update="false" label="Submitted Late" sequence="1" value="submitted_late"/>
+                <element inactive_on_update="false" label="Not Required" sequence="2" value="not_required"/>
+            </choice>
+        </element>
+        <element label="Regulator reference number" max_length="40" name="regulator_reference_number" type="string"/>
+        <element choice="1" label="Notification status" mandatory="true" max_length="40" name="notification_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Submitted" sequence="2" value="submitted"/>
+            </choice>
+        </element>
+        <element label="Oral notification made" max_length="40" name="oral_notification_made" type="boolean"/>
+        <element label="Oral notification date/time" max_length="40" name="oral_notification_date_time" type="glide_date_time"/>
+        <element label="Notification deadline" max_length="40" name="notification_deadline" type="due_date"/>
+        <element choice="1" label="Notification type" mandatory="true" max_length="40" name="notification_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ASD / SOCI Notification" sequence="0" value="asd_soci_notification"/>
+                <element inactive_on_update="false" label="Ransomware Payment Report" sequence="2" value="ransomware_payment_report"/>
+                <element inactive_on_update="false" label="OAIC / NDB Notification" sequence="1" value="oaic_ndb_notification"/>
+            </choice>
+        </element>
+        <element label="Parent cyber incident" max_length="32" name="parent_cyber_incident" reference="x_1776078_cyber_0_cyber_incident" type="reference"/>
+        <element label="Written notification date/time" max_length="255" name="written_notification_date_time" type="glide_date_time"/>
+        <element label="Written notification submitted" max_length="40" name="written_notification_submitted" type="boolean"/>
+    </element>
+</database>
