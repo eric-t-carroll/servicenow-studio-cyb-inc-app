@@ -9,14 +9,6 @@
             </choice>
         </element>
         <element label="Regulator reference number" max_length="40" name="regulator_reference_number" type="string"/>
-        <element choice="1" label="Notification status" mandatory="true" max_length="40" name="notification_status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
-                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
-                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
-                <element inactive_on_update="false" label="Submitted" sequence="2" value="submitted"/>
-            </choice>
-        </element>
         <element label="Oral notification made" max_length="40" name="oral_notification_made" type="boolean"/>
         <element label="Oral notification date/time" max_length="40" name="oral_notification_date_time" type="glide_date_time"/>
         <element label="Notification deadline" max_length="40" name="notification_deadline" type="due_date"/>
