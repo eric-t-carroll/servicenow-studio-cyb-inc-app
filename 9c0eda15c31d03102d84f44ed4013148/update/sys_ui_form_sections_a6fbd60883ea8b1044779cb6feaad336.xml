@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a6fbd60883ea8b1044779cb6feaad336" sys_domain="global" table="x_1776078_cyber_0_regulatory_notification_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-02 07:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2fbd60883ea8b1044779cb6feaad33c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1776078_cyber_0_regulatory_notification_task" name="x_1776078_cyber_0_regulatory_notification_task" sys_domain="global" view="Default view">a6fbd60883ea8b1044779cb6feaad336</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1776078_cyber_0_regulatory_notification_task" sys_domain="global" view="Default view">2614d24483668b1044779cb6feaad38a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-02 07:10:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-02 07:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2afbd60883ea8b1044779cb6feaad33d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1776078_cyber_0_regulatory_notification_task" name="x_1776078_cyber_0_regulatory_notification_task" sys_domain="global" view="Default view">a6fbd60883ea8b1044779cb6feaad336</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1776078_cyber_0_regulatory_notification_task" sys_domain="global" view="Default view">eefbd60883ea8b1044779cb6feaad330</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-02 07:10:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-02 07:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6fbd60883ea8b1044779cb6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1776078_cyber_0_regulatory_notification_task" name="x_1776078_cyber_0_regulatory_notification_task" sys_domain="global" view="Default view">a6fbd60883ea8b1044779cb6feaad336</sys_ui_form>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_1776078_cyber_0_regulatory_notification_task" sys_domain="global" view="Default view">e2fbd60883ea8b1044779cb6feaad333</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-02 07:10:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-02 07:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6fbd60883ea8b1044779cb6feaad34b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1776078_cyber_0_regulatory_notification_task" name="x_1776078_cyber_0_regulatory_notification_task" sys_domain="global" view="Default view">a6fbd60883ea8b1044779cb6feaad336</sys_ui_form>
+            <sys_ui_section caption="Closure" display_value="Closure" name="x_1776078_cyber_0_regulatory_notification_task" sys_domain="global" view="Default view">aefbd60883ea8b1044779cb6feaad334</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-02 07:10:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1776078_cyber_0_regulatory_notification_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-02 07:10:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6fbd60883ea8b1044779cb6feaad336</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1776078_cyber_0_regulatory_notification_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a6fbd60883ea8b1044779cb6feaad336</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-02 07:10:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
