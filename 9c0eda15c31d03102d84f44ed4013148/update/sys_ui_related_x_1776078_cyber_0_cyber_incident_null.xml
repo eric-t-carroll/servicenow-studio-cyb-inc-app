@@ -2,45 +2,59 @@
     <sys_ui_related sys_domain="global" table="x_1776078_cyber_0_cyber_incident" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Cyber Incident - Default view" name="x_1776078_cyber_0_cyber_incident" related_list="NULL" sys_domain="global" view="Default view">e5808f8e832147901d28c430ceaad385</list_id>
+            <list_id display_value="Cyber Incident - Default view" name="x_1776078_cyber_0_cyber_incident" related_list="NULL" sys_domain="global" view="Default view">dd4f6a8983e2031044779cb6feaad355</list_id>
             <order_by/>
             <position>0</position>
+            <related_list>x_1776078_cyber_0_regulatory_notification_task.parent_cyber_incident</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-05 11:08:57</sys_created_on>
+            <sys_id>594f6a8983e2031044779cb6feaad358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-05 11:08:57</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Cyber Incident - Default view" name="x_1776078_cyber_0_cyber_incident" related_list="NULL" sys_domain="global" view="Default view">dd4f6a8983e2031044779cb6feaad355</list_id>
+            <order_by/>
+            <position>1</position>
             <related_list>task_sla.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-19 21:55:29</sys_created_on>
-            <sys_id>29808f8e832147901d28c430ceaad386</sys_id>
+            <sys_created_on>2026-08-05 11:08:57</sys_created_on>
+            <sys_id>594f6a8983e2031044779cb6feaad359</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-19 21:55:29</sys_updated_on>
+            <sys_updated_on>2026-08-05 11:08:57</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Cyber Incident - Default view" name="x_1776078_cyber_0_cyber_incident" related_list="NULL" sys_domain="global" view="Default view">e5808f8e832147901d28c430ceaad385</list_id>
+            <list_id display_value="Cyber Incident - Default view" name="x_1776078_cyber_0_cyber_incident" related_list="NULL" sys_domain="global" view="Default view">dd4f6a8983e2031044779cb6feaad355</list_id>
             <order_by/>
-            <position>1</position>
+            <position>2</position>
             <related_list>task_cmdb_ci_service.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-19 21:55:29</sys_created_on>
-            <sys_id>ad808f8e832147901d28c430ceaad386</sys_id>
+            <sys_created_on>2026-08-05 11:08:57</sys_created_on>
+            <sys_id>dd4f6a8983e2031044779cb6feaad359</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-19 21:55:29</sys_updated_on>
+            <sys_updated_on>2026-08-05 11:08:57</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Cyber Incident - Default view" name="x_1776078_cyber_0_cyber_incident" related_list="NULL" sys_domain="global" view="Default view">e5808f8e832147901d28c430ceaad385</list_id>
+            <list_id display_value="Cyber Incident - Default view" name="x_1776078_cyber_0_cyber_incident" related_list="NULL" sys_domain="global" view="Default view">dd4f6a8983e2031044779cb6feaad355</list_id>
             <order_by/>
-            <position>2</position>
+            <position>3</position>
             <related_list>task_ci.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-19 21:55:29</sys_created_on>
-            <sys_id>25808f8e832147901d28c430ceaad387</sys_id>
+            <sys_created_on>2026-08-05 11:08:57</sys_created_on>
+            <sys_id>554f6a8983e2031044779cb6feaad35a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-19 21:55:29</sys_updated_on>
+            <sys_updated_on>2026-08-05 11:08:57</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Cyber Incident - Default view</calculated_name>
@@ -51,10 +65,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-19 21:55:29</sys_created_on>
+            <sys_created_on>2026-08-05 11:08:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e5808f8e832147901d28c430ceaad385</sys_id>
+            <sys_id>dd4f6a8983e2031044779cb6feaad355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Cyber Incident - Default view</sys_name>
             <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
@@ -62,7 +76,7 @@
             <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
             <sys_update_name>sys_ui_related_x_1776078_cyber_0_cyber_incident_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-19 21:55:29</sys_updated_on>
+            <sys_updated_on>2026-08-05 11:08:57</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
