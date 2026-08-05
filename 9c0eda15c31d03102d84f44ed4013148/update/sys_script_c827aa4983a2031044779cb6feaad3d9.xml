@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1776078_cyber_0_cyber_incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1776078_cyber_0_cyber_incident">suggested_soci_classificationINsignificant,relevant^acsc_incident_severityINc1,c2,c3,c4,c6^EQ<item display_value="significant,relevant" endquery="false" field="suggested_soci_classification" goto="false" newquery="false" operator="IN" or="false" value="significant,relevant"/>
+            <item display_value="c1,c2,c3,c4,c6" endquery="false" field="acsc_incident_severity" goto="false" newquery="false" operator="IN" or="false" value="c1,c2,c3,c4,c6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update scratch pad on REG notification</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	//let client know a soci notification is required
+    g_scratchpad.soci_notification_required = true;
+
+	//search for existing REG tasks already created
+    var grReg = new GlideRecord('x_1776078_cyber_0_regulatory_notification_task');
+    grReg.addQuery('parent_cyber_incident', current.sys_id);
+    grReg.addQuery('notification_type', 'asd_soci_notification');
+    grReg.setLimit(1);
+    grReg.query();
+
+	//if REG exist, let client know including the task state
+    if (grReg.next()) {
+        g_scratchpad.soci_task_exists = true;
+        g_scratchpad.soci_task_state = grReg.getValue('state');
+
+	//else let client know there is no existing REG task
+    } else {
+        g_scratchpad.soci_task_exists = false;
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-05 10:37:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c827aa4983a2031044779cb6feaad3d9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Update scratch pad on REG notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_script_c827aa4983a2031044779cb6feaad3d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-05 12:31:48</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c827aa4983a2031044779cb6feaad3d9"/>
+</record_update>

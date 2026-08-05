@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>affected_asset_type</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-02 10:25:51</sys_created_on>
+        <sys_id>5498cf408362cb1044779cb6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>affected_asset_type</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5498cf408362cb1044779cb6feaad36c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-02 10:25:51</sys_updated_on>
+        <table>x_1776078_cyber_0_cyber_incident</table>
+        <ui_policy display_value="Affected asset type is active and mandatory when data is breached">883707008362cb1044779cb6feaad3e2</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=5498cf408362cb1044779cb6feaad36c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>17118310ff778618c812f8e4fc4fd900</instance_id>
+        <instance_name>dev284160</instance_name>
+        <name>sys_ui_policy_action_5498cf408362cb1044779cb6feaad36c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>affected_asset_type</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-02 10:25:51</sys_created_on><sys_id>5498cf408362cb1044779cb6feaad36c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>affected_asset_type</sys_name><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_update_name>sys_ui_policy_action_5498cf408362cb1044779cb6feaad36c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-02 10:25:51</sys_updated_on><table>x_1776078_cyber_0_cyber_incident</table><ui_policy display_value="Affected asset type is active and mandatory when data is breached">883707008362cb1044779cb6feaad3e2</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=5498cf408362cb1044779cb6feaad36c"/></record_update>]]></payload>
+        <payload_hash>-2126945818</payload_hash>
+        <record_name>affected_asset_type</record_name>
+        <reverted_from/>
+        <source>3b5207848322cb1044779cb6feaad390</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-02 10:25:51</sys_created_on>
+        <sys_id>a4a887c08362cb1044779cb6feaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fc20232800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-02 10:25:51</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>64a887c0a962cb10bc5e4ed455f96628</update_guid>
+        <update_guid_history>64a887c0a962cb10bc5e4ed455f96628:-2126945818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-05 11:42:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0234e9e4d50749188314fb037f111a40</sys_id>
+        <sys_metadata>5498cf408362cb1044779cb6feaad36c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>affected_asset_type</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent display_value="Affected asset type is mandatory during containment">883707008362cb1044779cb6feaad3e2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_5498cf408362cb1044779cb6feaad36c</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_5498cf408362cb1044779cb6feaad36c">a4a887c08362cb1044779cb6feaad329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-05 11:42:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
