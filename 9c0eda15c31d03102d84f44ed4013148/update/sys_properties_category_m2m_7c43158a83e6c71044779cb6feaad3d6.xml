@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="x_1776078_cyber_0">dbf0954683e6c71044779cb6feaad363</category>
+        <order>500</order>
+        <property display_value="x_1776078_cyber_0.sla.soci_relevant_written_hours" name="x_1776078_cyber_0.sla.soci_relevant_written_hours">96b2d50a83e6c71044779cb6feaad3f0</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-08 07:00:54</sys_created_on>
+        <sys_id>7c43158a83e6c71044779cb6feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1776078_cyber_0.sla.soci_relevant_written_hours.x_1776078_cyber_0</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_7c43158a83e6c71044779cb6feaad3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-08 07:00:54</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
