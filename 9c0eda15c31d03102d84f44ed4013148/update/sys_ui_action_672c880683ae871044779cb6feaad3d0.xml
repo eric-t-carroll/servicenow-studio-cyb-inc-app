@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>soci_notification</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>(current.suggested_soci_classification == 'significant' || current.suggested_soci_classification == 'relevant') &amp;&amp; !current.acsc_incident_severity.nil()</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>SOCI Notification</name>
+        <onclick>soci_notification()</onclick>
+        <order>100</order>
+        <script><![CDATA[function soci_notification() {
+    gsftSubmit(null, g_form.getFormElement(), 'soci_notification');
+}
+
+if (typeof window == 'undefined') {
+    //check for existing REG tasks - except for Closed Incomplete
+    var existingReg = new GlideRecord('x_1776078_cyber_0_regulatory_notification_task');
+	var stateOrQuery = existingReg.addQuery('state', '-5');
+	stateOrQuery.addOrCondition('state', '1');
+	stateOrQuery.addOrCondition('state', '2');
+	stateOrQuery.addOrCondition('state', '3');
+    existingReg.addQuery('parent_cyber_incident', current.sys_id);
+    existingReg.addQuery('notification_type', 'asd_soci_notification');
+    existingReg.setLimit(1);
+    existingReg.query();
+
+    // if task exists, let user know and dont create task
+    if (existingReg.next()) {
+        gs.addInfoMessage('An active SOCI notification task already exists for this cyber incident - no new task has been created.');
+
+        //if no task exists, create a new one
+    } else {
+        var newReg = new GlideRecord('x_1776078_cyber_0_regulatory_notification_task');
+        newReg.initialize();
+        newReg.setValue('parent_cyber_incident', current.sys_id);
+        newReg.setValue('notification_type', 'asd_soci_notification');
+        newReg.setValue('assignment_group', 'b7aa36d9c3d1431043481cedd40131f1');
+        newReg.setValue('state', '1');
+        newReg.insert();
+        current.work_notes = newReg.number + ': ' + newReg.getDisplayValue('notification_type') + ' created.';
+		current.update();
+    }
+    action.setRedirectURL(current);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-08 01:56:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>672c880683ae871044779cb6feaad3d0</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SOCI Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_ui_action_672c880683ae871044779cb6feaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-08 02:39:22</sys_updated_on>
+        <table>x_1776078_cyber_0_cyber_incident</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
