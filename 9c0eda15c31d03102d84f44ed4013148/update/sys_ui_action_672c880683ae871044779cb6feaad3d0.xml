@@ -58,6 +58,7 @@ if (typeof window == 'undefined') {
         newReg.setValue('notification_type', 'asd_soci_notification');
         newReg.setValue('assignment_group', 'b7aa36d9c3d1431043481cedd40131f1');
         newReg.setValue('state', '1');
+		newReg.setValue('short_description', 'ASD/SOCI notification - ' + current.getValue('number'));
         newReg.insert();
         current.work_notes = newReg.number + ': ' + newReg.getDisplayValue('notification_type') + ' created.';
 		current.update();
@@ -74,7 +75,7 @@ if (typeof window == 'undefined') {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>672c880683ae871044779cb6feaad3d0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Create SOCI Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
@@ -82,7 +83,7 @@ if (typeof window == 'undefined') {
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>sys_ui_action_672c880683ae871044779cb6feaad3d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-08 04:09:21</sys_updated_on>
+        <sys_updated_on>2026-08-08 06:32:35</sys_updated_on>
         <table>x_1776078_cyber_0_cyber_incident</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
