@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-09 10:16:21</sys_created_on>
+        <sys_id>744807d283a68b1044779cb6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1776078_cyber_0_cyber_incident.x_1776078_cyber_0.legal</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_security_acl display_value="x_1776078_cyber_0_cyber_incident">a727035283a68b1044779cb6feaad3c2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_744807d283a68b1044779cb6feaad35b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-09 10:16:21</sys_updated_on>
+        <sys_user_role display_value="x_1776078_cyber_0.legal" name="x_1776078_cyber_0.legal">7803ab5d836a831044779cb6feaad316</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>17118310ff778618c812f8e4fc4fd900</instance_id>
+        <instance_name>dev284160</instance_name>
+        <name>sys_security_acl_role_744807d283a68b1044779cb6feaad35b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-09 10:16:21</sys_created_on><sys_id>744807d283a68b1044779cb6feaad35b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1776078_cyber_0_cyber_incident.x_1776078_cyber_0.legal</sys_name><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_security_acl display_value="x_1776078_cyber_0_cyber_incident">a727035283a68b1044779cb6feaad3c2</sys_security_acl><sys_update_name>sys_security_acl_role_744807d283a68b1044779cb6feaad35b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-09 10:16:21</sys_updated_on><sys_user_role display_value="x_1776078_cyber_0.legal" name="x_1776078_cyber_0.legal">7803ab5d836a831044779cb6feaad316</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>2006053527</payload_hash>
+        <record_name>x_1776078_cyber_0_cyber_incident.x_1776078_cyber_0.legal</record_name>
+        <reverted_from/>
+        <source>f1700f5283668b1044779cb6feaad3a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-09 10:16:22</sys_created_on>
+        <sys_id>b5990b9683a68b1044779cb6feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fe60605b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-09 10:16:22</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>75990b961fa68b1007e58333b970a4e1</update_guid>
+        <update_guid_history>75990b961fa68b1007e58333b970a4e1:2006053527</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1776078_cyber_0_cyber_incident.x_1776078_cyber_0.legal">971b4f5a83a68b1044779cb6feaad3d7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-09 10:23:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5cedcb5183c246a0a38550a49541e7b9</sys_id>
+        <sys_metadata>744807d283a68b1044779cb6feaad35b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1776078_cyber_0_cyber_incident.x_1776078_cyber_0.legal</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent display_value="">a727035283a68b1044779cb6feaad3c2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_744807d283a68b1044779cb6feaad35b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_744807d283a68b1044779cb6feaad35b">b5990b9683a68b1044779cb6feaad3e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-09 10:23:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
