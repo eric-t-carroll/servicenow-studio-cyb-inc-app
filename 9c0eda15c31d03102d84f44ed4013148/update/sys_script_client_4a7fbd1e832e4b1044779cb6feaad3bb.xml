@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Reads scratchpad values loaded by the 'Update scratch pad on REG notification' business rule. Displays a message advising when a SOCI regualtory notificaiton task activity needs attention.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SOCI info/warn banner</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //if SOCI task is not required, do not display any message
+    if (!g_scratchpad.soci_notification_required) {
+        return;
+    }
+
+    //if SOCI task is required but does not exist, tell the user
+    if (!g_scratchpad.soci_task_exists) {
+        g_form.addInfoMessage('SOCI notification may be required - use the Create SOCI Notification button');
+    }
+
+    //if SOCI task is required but there is already a notification task, let the user know
+    if (g_scratchpad.soci_task_exists) {
+        if (g_scratchpad.soci_task_state === '-5' || g_scratchpad.soci_task_state === '1' || g_scratchpad.soci_task_state === '2') {
+            g_form.addInfoMessage('SOCI notification task in is progress');
+        }
+
+        if (g_scratchpad.soci_task_state === '3') {
+            g_form.addInfoMessage('SOCI notification has been completed');
+        }
+
+        if (g_scratchpad.soci_task_state === '4') {
+            g_form.addModerateMessage('The previous SOCI notification task was not completed - review if still required');
+        }
+
+        if (g_scratchpad.soci_task_state === '8') {
+            g_form.addModerateMessage('The previous SOCI notification was closed as no longer required - review if still required');
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-09 06:03:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a7fbd1e832e4b1044779cb6feaad3bb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SOCI info/warn banner</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_script_client_4a7fbd1e832e4b1044779cb6feaad3bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-09 06:07:59</sys_updated_on>
+        <table>x_1776078_cyber_0_cyber_incident</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
