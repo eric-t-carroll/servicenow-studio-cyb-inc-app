@@ -2,17 +2,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-02 06:36:25</sys_created_on>
-        <sys_id>6f14964483aa8b1044779cb6feaad336</sys_id>
+        <sys_created_on>2026-08-25 10:42:29</sys_created_on>
+        <sys_id>caf869eb837e0b1044779cb6feaad3b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1776078_cyber_0_regulatory_notification_task.x_1776078_cyber_0.security_analyst</sys_name>
+        <sys_name>x_1776078_cyber_0_regulatory_notification_task.work_notes.x_1776078_cyber_0.security_analyst</sys_name>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
-        <sys_security_acl display_value="x_1776078_cyber_0_regulatory_notification_task">e714964483aa8b1044779cb6feaad331</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_6f14964483aa8b1044779cb6feaad336</sys_update_name>
+        <sys_security_acl display_value="x_1776078_cyber_0_regulatory_notification_task.work_notes">a798e5ab837e0b1044779cb6feaad3cd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_caf869eb837e0b1044779cb6feaad3b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-02 06:36:25</sys_updated_on>
+        <sys_updated_on>2026-08-25 10:42:29</sys_updated_on>
         <sys_user_role display_value="x_1776078_cyber_0.security_analyst" name="x_1776078_cyber_0.security_analyst">6a3abe59c3d1431043481cedd401310f</sys_user_role>
     </sys_security_acl_role>
 </record_update>
