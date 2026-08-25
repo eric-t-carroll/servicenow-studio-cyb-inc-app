@@ -31,13 +31,20 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	//allow save if close code is false positive and any state except eradication
+    //guard to prevent error when SLA task creation engine runs twice by design. This was triggering state validation on the second pass, but there is no values for previous availble.
+    if (!previous.getValue('state')) {
+        gs.info('State transition validation skipped - no previous state available.\nCurrent state: ' + current.getValue('state') + ' - previous state: ' + previous.getValue('state') + ' - isNewRecord: ' + current.isNewRecord());
+        return;
+    }
+
+
+    //allow save if close code is false positive and any state except eradication
     if (current.getValue('close_code') === 'false_positive' && current.getValue('state') === '3') {
         if (previous.getValue('state') === '13') {
-			gs.addErrorMessage('Incidents cannot be closed directly from Eradication - progress to Recovery first.')
-			current.setAbortAction(true);
-		}
-		return;
+            gs.addErrorMessage('Incidents cannot be closed directly from Eradication - progress to Recovery first.')
+            current.setAbortAction(true);
+        }
+        return;
     }
 
     //allow save if state transition is valid
@@ -53,7 +60,7 @@
     if (validStateTransition[previous.getValue('state')].indexOf(current.getValue('state')) !== -1) {
         return;
     } else {
-		gs.addErrorMessage('Invalid state transition - changing State from ' + previous.getDisplayValue('state') + ' to ' + current.getDisplayValue('state') + ' is not permitted.');
+        gs.addErrorMessage('Invalid state transition - changing State from ' + previous.getDisplayValue('state') + ' to ' + current.getDisplayValue('state') + ' is not permitted.');
         current.setAbortAction(true);
     }
 
@@ -64,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>18ec229a83a28b1044779cb6feaad310</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>State transition validation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
@@ -72,7 +79,7 @@
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>sys_script_18ec229a83a28b1044779cb6feaad310</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-09 09:07:38</sys_updated_on>
+        <sys_updated_on>2026-08-25 04:45:16</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
