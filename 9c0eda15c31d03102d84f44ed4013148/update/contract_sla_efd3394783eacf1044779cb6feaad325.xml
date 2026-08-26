@@ -2,7 +2,9 @@
     <contract_sla action="INSERT_OR_UPDATE">
         <active>true</active>
         <adv_condition_type>none</adv_condition_type>
-        <cancel_condition/>
+        <cancel_condition table="x_1776078_cyber_0_regulatory_notification_task">state=6^EQ<item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </cancel_condition>
         <collection>x_1776078_cyber_0_regulatory_notification_task</collection>
         <condition_class/>
         <duration>1970-01-01 00:00:00</duration>
@@ -24,7 +26,7 @@
         <start_condition table="x_1776078_cyber_0_regulatory_notification_task">notification_type=ransomware_payment_report^EQ<item display_value="Ransomware Payment Report" endquery="false" field="notification_type" goto="false" newquery="false" operator="=" or="false" value="ransomware_payment_report"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </start_condition>
-        <stop_condition table="x_1776078_cyber_0_regulatory_notification_task">stateIN3,4,8^EQ<item display_value="3,4,8" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="3,4,8"/>
+        <stop_condition table="x_1776078_cyber_0_regulatory_notification_task">stateIN3,8^EQ<item display_value="3,8" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="3,8"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </stop_condition>
         <sys_class_name>contract_sla</sys_class_name>
@@ -33,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>efd3394783eacf1044779cb6feaad325</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Ransomware Payment Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
@@ -41,7 +43,7 @@
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>contract_sla_efd3394783eacf1044779cb6feaad325</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 04:01:52</sys_updated_on>
+        <sys_updated_on>2026-08-26 12:54:56</sys_updated_on>
         <target>resolution</target>
         <timezone/>
         <timezone_source>task.caller_id.time_zone</timezone_source>

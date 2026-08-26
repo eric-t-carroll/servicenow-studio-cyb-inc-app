@@ -95,19 +95,38 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Closed Incomplete</label>
+            <inactive>false</inactive>
+            <label>Rejected</label>
             <language>en</language>
             <name>x_1776078_cyber_0_regulatory_notification_task</name>
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-26 12:27:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-26 12:27:13</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_regulatory_notification_task</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-08-05 12:19:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-25 10:54:52</sys_updated_on>
+            <sys_updated_on>2026-08-26 12:27:04</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -118,15 +137,15 @@
             <label>Closed Complete</label>
             <language>en</language>
             <name>x_1776078_cyber_0_regulatory_notification_task</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-08-05 12:18:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-25 10:53:23</sys_updated_on>
+            <sys_updated_on>2026-08-26 12:27:06</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -137,15 +156,15 @@
             <label>Closed No Longer Required</label>
             <language>en</language>
             <name>x_1776078_cyber_0_regulatory_notification_task</name>
-            <sequence>6</sequence>
+            <sequence>7</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-08-05 12:07:16</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-25 10:59:33</sys_updated_on>
+            <sys_updated_on>2026-08-26 12:27:07</sys_updated_on>
             <value>8</value>
         </sys_choice>
     </sys_choice>

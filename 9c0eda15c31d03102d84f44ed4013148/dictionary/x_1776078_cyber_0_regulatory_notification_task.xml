@@ -11,6 +11,13 @@
         <element label="Regulator reference number" max_length="40" name="regulator_reference_number" type="string"/>
         <element label="Oral notification made" max_length="40" name="oral_notification_made" type="boolean"/>
         <element label="Oral notification date/time" max_length="40" name="oral_notification_date_time" type="glide_date_time"/>
+        <element choice="1" label="SOCI Classification" max_length="40" name="soci_classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No Report" sequence="2" value="no_report"/>
+                <element inactive_on_update="false" label="Significant" sequence="0" value="significant"/>
+                <element inactive_on_update="false" label="Relevant" sequence="1" value="relevant"/>
+            </choice>
+        </element>
         <element label="Notification deadline" max_length="40" name="notification_deadline" type="due_date"/>
         <element choice="1" label="Notification type" mandatory="true" max_length="40" name="notification_type" type="choice">
             <choice>

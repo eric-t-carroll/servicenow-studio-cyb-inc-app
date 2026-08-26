@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
-        <description>Ransomware Payment — reporting deadline (hours from Payment Date/Time)</description>
+        <description>Ransomware Payment - reporting deadline (hours)&#13;
+ - starts from Payment Date/Time&#13;
+ - stops when REG task is complete</description>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
         <name>x_1776078_cyber_0.sla.ransomware_report_hours</name>
@@ -11,14 +13,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-08 07:00:07</sys_created_on>
         <sys_id>6d13954a83e6c71044779cb6feaad373</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_1776078_cyber_0.sla.ransomware_report_hours</sys_name>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>sys_properties_6d13954a83e6c71044779cb6feaad373</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-08 07:00:07</sys_updated_on>
+        <sys_updated_on>2026-08-26 12:10:22</sys_updated_on>
         <type>integer</type>
         <value>72</value>
         <write_roles>x_1776078_cyber_0.admin</write_roles>
