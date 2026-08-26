@@ -37,6 +37,7 @@
     var existingRegOr = existingReg.addQuery('state', '-5');
     existingRegOr.addOrCondition('state', '1');
     existingRegOr.addOrCondition('state', '2');
+	existingRegOr.addOrCondition('state', '5');
     existingReg.addQuery('parent_cyber_incident', current.sys_id);
     existingReg.setLimit(1);
     existingReg.query();
@@ -55,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5a9dd00a8322c71044779cb6feaad36d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Update REG with new SOCI classification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
@@ -63,7 +64,7 @@
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>sys_script_5a9dd00a8322c71044779cb6feaad36d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-08 03:33:55</sys_updated_on>
+        <sys_updated_on>2026-08-26 11:48:59</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
