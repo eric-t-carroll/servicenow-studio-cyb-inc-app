@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_relative_duration">
+    <cmn_relative_duration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>SOCI Follow Up SLA</name>
+        <script><![CDATA[// Perform relative duration calculation using the 'calculator' variable (which is a DurationCalculator object)
+
+(function() {
+
+	//Confirm if the base table is task or task_sla
+	var taskRecord;
+	var tableName = current.getTableName();
+	var baseTableName = GlideDBObjectManager.getAbsoluteBase(tableName);
+
+	if (baseTableName == "task") {
+		taskRecord = current;
+	} else if (baseTableName == "task_sla") {
+		taskRecord = current.task;
+	}
+
+	// Retrieve the corresponding SLA time
+	var slaTime;
+	if (taskRecord.getValue('soci_classification') === 'significant') {
+		slaTime = 'x_1776078_cyber_0.sla.soci_significant_written_hours';
+	}
+	else {
+		slaTime = 'x_1776078_cyber_0.sla.soci_relevant_written_hours';
+	}
+
+	// Find the moment State became "Oral Notification Complete"
+	var oralCompleteTime;
+	var audit = new GlideRecord('sys_audit');
+	audit.addQuery('tablename', taskRecord.getTableName());
+	audit.addQuery('documentkey', taskRecord.getUniqueValue());
+	audit.addQuery('fieldname', 'state');
+	audit.addQuery('newvalue', '5');  // confirm this is the correct value for Oral Notification Complete
+	audit.orderBy('sys_created_on');
+	audit.setLimit(1);
+	audit.query();
+
+	if (audit.next()) {
+		oralCompleteTime = new GlideDateTime(audit.getValue('sys_created_on'));
+	} else {
+		oralCompleteTime = new GlideDateTime(calculator.startDateTime); // fallback, shouldn't normally hit this
+	}
+
+    //calculate when the notification due date time is
+    var durationSeconds = Number(gs.getProperty(slaTime)) * 3600;
+    var notificationDueTime = new GlideDateTime(oralCompleteTime);
+    notificationDueTime.addSeconds(durationSeconds);
+
+    // set the endDateTime property of the calculator object
+    calculator.endDateTime = notificationDueTime;
+    calculator.calcScheduleDuration();
+})();]]></script>
+        <sys_class_name>cmn_relative_duration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 10:43:52</sys_created_on>
+        <sys_id>508c73c083038f1044779cb6feaad3ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SOCI Follow Up SLA</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>cmn_relative_duration_508c73c083038f1044779cb6feaad3ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 11:12:36</sys_updated_on>
+    </cmn_relative_duration>
+</record_update>

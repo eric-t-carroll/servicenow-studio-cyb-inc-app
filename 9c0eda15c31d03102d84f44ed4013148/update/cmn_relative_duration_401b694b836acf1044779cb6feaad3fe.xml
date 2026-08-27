@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_relative_duration">
     <cmn_relative_duration action="INSERT_OR_UPDATE">
         <active>true</active>
-        <name>Ransomware Payment Made Duration</name>
+        <name>REG Ransomware / SOCI Initial SLA</name>
         <script><![CDATA[// Perform relative duration calculation using the 'calculator' variable (which is a DurationCalculator object)
 
 (function() {
-    var paymentTime;
 
-    // Work out if "current" is a Task record or Task SLA and then get the "payment_date_time" element from the Task
-    var tableName = current.getTableName();
-    if (tableName) {
-        var baseTableName = GlideDBObjectManager.getAbsoluteBase(tableName);
-        if (baseTableName == "task")
-             paymentTime = current.getElement("parent_cyber_incident.payment_date_time");
-        else if (baseTableName == "task_sla")
-            paymentTime = current.getElement("task.parent_cyber_incident.payment_date_time");
-    }
+	//Confirm if the base table is task or task_sla
+	var taskRecord;
+	var tableName = current.getTableName();
+	var baseTableName = GlideDBObjectManager.getAbsoluteBase(tableName);
+
+	if (baseTableName == "task") {
+		taskRecord = current;
+	} else if (baseTableName == "task_sla") {
+		taskRecord = current.task;
+	}
+
+	// Confirm the notification type, retrieve the corresponding SLA time and confirm the correct field to calculate SLA start time
+	var notificationType = taskRecord.getValue('notification_type');
+	var slaTime;
+	var clockStart;
+	if (notificationType === 'asd_soci_notification') {
+		if (taskRecord.getValue('soci_classification') === 'significant') {
+			slaTime = 'x_1776078_cyber_0.sla.soci_significant_initial_hours';
+		}
+		else {
+			slaTime = 'x_1776078_cyber_0.sla.soci_relevant_initial_hours';
+		}
+		clockStart = (baseTableName == "task")
+			? current.getElement("parent_cyber_incident.date_time_became_aware")
+			: current.getElement("task.parent_cyber_incident.date_time_became_aware");
+	}
+	if (notificationType === 'ransomware_payment_report') {
+		slaTime = 'x_1776078_cyber_0.sla.ransomware_report_hours';
+		clockStart = (baseTableName == "task")
+			? current.getElement("parent_cyber_incident.payment_date_time")
+			: current.getElement("task.parent_cyber_incident.payment_date_time");
+	}
 
     //add application system property for ransomware onto the payment date time
-    var ransomwareSLA = Number(gs.getProperty('x_1776078_cyber_0.sla.ransomware_report_hours')) * 3600;
-    var notificationDueTime = new GlideDateTime(paymentTime.getGlideObject());
+    var ransomwareSLA = Number(gs.getProperty(slaTime)) * 3600;
+    var notificationDueTime = new GlideDateTime(clockStart.getGlideObject());
     notificationDueTime.addSeconds(ransomwareSLA);
 
     // if we've got a "breach date" and it's already breached, set the "breach date" to 1 second in the future
@@ -37,13 +59,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-11 11:56:46</sys_created_on>
         <sys_id>401b694b836acf1044779cb6feaad3fe</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name>Ransomware Payment Made Duration</sys_name>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>REG Ransomware / SOCI Initial SLA</sys_name>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>cmn_relative_duration_401b694b836acf1044779cb6feaad3fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 04:25:04</sys_updated_on>
+        <sys_updated_on>2026-08-27 10:11:54</sys_updated_on>
     </cmn_relative_duration>
 </record_update>
