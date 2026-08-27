@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_relative_duration">
+    <cmn_relative_duration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>NDB - Notify OAIC and affected individua</name>
+        <script><![CDATA[// Perform relative duration calculation using the 'calculator' variable (which is a DurationCalculator object)
+
+(function() {
+
+	//get the NDB notification SLA
+	var durationHours = Number(gs.getProperty('x_1776078_cyber_0.sla.ndb_notification_hours'));
+	var dueTime = new GlideDateTime(calculator.startDateTime);
+	dueTime.addSeconds(durationHours * 3600);
+
+    // set the endDateTime property of the calculator object
+    calculator.endDateTime = dueTime;
+    calculator.calcScheduleDuration();
+})();]]></script>
+        <sys_class_name>cmn_relative_duration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 11:56:08</sys_created_on>
+        <sys_id>7e0d489483838f1044779cb6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NDB - Notify OAIC and affected individua</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>cmn_relative_duration_7e0d489483838f1044779cb6feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 11:56:08</sys_updated_on>
+    </cmn_relative_duration>
+</record_update>

@@ -32,7 +32,7 @@
                 <element inactive_on_update="false" label="Breached" sequence="4" value="breached"/>
             </choice>
         </element>
-        <element label="Date/Time Became Aware" max_length="255" name="date_time_became_aware" type="glide_date_time"/>
+        <element label="Date/Time Became Aware" mandatory="true" max_length="255" name="date_time_became_aware" type="glide_date_time"/>
         <element label="MITRE ATT&amp;CK tactic" max_length="100" name="mitre_att_ck_tactic" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Persistent threat" max_length="255" name="persistent_threat" type="boolean"/>
         <element label="Resolved" max_length="40" name="resolved" type="glide_date_time"/>
@@ -125,12 +125,12 @@
                 <element inactive_on_update="false" label="Threat neutralised" sequence="1" value="threat_neutralised"/>
             </choice>
         </element>
-        <element choice="1" default="Pending Assessment" label="Eligible Data Breach Determination" max_length="40" name="eligible_data_breach_determination" type="choice">
+        <element choice="3" default="Pending Assessment" label="Eligible Data Breach Determination" max_length="40" name="eligible_data_breach_determination" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Not Eligible – Remediated" sequence="3" value="not_eligible_remediated"/>
-                <element inactive_on_update="false" label="Eligible" sequence="2" value="eligible"/>
-                <element inactive_on_update="false" label="Not Eligible - Low Risk" sequence="4" value="not_eligible_Low_risk"/>
-                <element inactive_on_update="false" label="Pending Assessment" sequence="1" value="pending_assessment"/>
+                <element inactive_on_update="false" label="Not Eligible – Remediated" sequence="2" value="not_eligible_remediated"/>
+                <element inactive_on_update="false" label="Eligible" sequence="1" value="eligible"/>
+                <element inactive_on_update="false" label="Not Eligible - Low Risk" sequence="3" value="not_eligible_Low_risk"/>
+                <element inactive_on_update="false" label="Pending Assessment" sequence="0" value="pending_assessment"/>
             </choice>
         </element>
     </element>

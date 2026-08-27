@@ -15,13 +15,13 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_1776078_cyber_0_cyber_incident">data_classification_of_affected_assetsLIKEprivate_information^EQ<item endquery="false" field="data_classification_of_affected_assets" goto="false" newquery="false" operator="LIKE" or="false" value="private_information"/>
+        <filter_condition table="x_1776078_cyber_0_cyber_incident">eligible_data_breach_determination=eligible^EQ<item display_value="Eligible" endquery="false" field="eligible_data_breach_determination" goto="false" newquery="false" operator="=" or="false" value="eligible"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Create REG when private information</name>
-        <order>150</order>
+        <name>Create REG when NDB eligible</name>
+        <order>160</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -60,21 +60,21 @@
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-08 03:59:06</sys_created_on>
+        <sys_created_on>2026-08-27 12:10:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d6696c0283a2c71044779cb6feaad3e6</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>Create REG when private information</sys_name>
+        <sys_id>8560945c83838f1044779cb6feaad351</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create REG when NDB eligible</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
-        <sys_update_name>sys_script_d6696c0283a2c71044779cb6feaad3e6</sys_update_name>
+        <sys_update_name>sys_script_8560945c83838f1044779cb6feaad351</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-26 12:37:54</sys_updated_on>
+        <sys_updated_on>2026-08-27 12:11:09</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=d6696c0283a2c71044779cb6feaad3e6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=8560945c83838f1044779cb6feaad351"/>
 </record_update>
