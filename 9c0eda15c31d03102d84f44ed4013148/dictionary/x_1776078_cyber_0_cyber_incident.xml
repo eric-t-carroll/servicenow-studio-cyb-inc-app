@@ -24,12 +24,12 @@
         </element>
         <element label="Awareness Basis" max_length="4000" name="awareness_basis" type="string"/>
         <element label="Acknowledged Time" max_length="255" name="acknowledged_time" type="glide_date_time"/>
-        <element choice="1" default="No Active Notifications" function_definition="No Active Notifications" label="Notification SLA Status" max_length="40" name="notification_sla_status" read_only="true" type="choice">
+        <element choice="1" function_definition="No Active Notifications" label="NDB Assessment SLA Status" max_length="40" name="notification_sla_status" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="No Active Notifications" sequence="1" value="no_active_notifications"/>
-                <element inactive_on_update="false" label="On Track" sequence="2" value="on_track"/>
-                <element inactive_on_update="false" label="At Risk" sequence="3" value="at_risk"/>
-                <element inactive_on_update="false" label="Breached" sequence="4" value="breached"/>
+                <element inactive_on_update="false" label="On Track" sequence="0" value="on_track"/>
+                <element inactive_on_update="false" label="Assessment Complete" sequence="3" value="assessment_complete"/>
+                <element inactive_on_update="false" label="At Risk" sequence="1" value="at_risk"/>
+                <element inactive_on_update="false" label="Breached" sequence="2" value="breached"/>
             </choice>
         </element>
         <element label="Date/Time Became Aware" mandatory="true" max_length="255" name="date_time_became_aware" type="glide_date_time"/>

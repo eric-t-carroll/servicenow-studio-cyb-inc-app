@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1776078_cyber_0_cyber_incident">notification_sla_statusANYTHING^EQ<item display_value="-- None --" endquery="false" field="notification_sla_status" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	var assessmentSLA = g_form.getValue('notification_sla_status');
+	if (assessmentSLA === 'at_risk') {
+		g_form.getControl('notification_sla_status').style.backgroundColor = 'yellow';
+	} else if (assessmentSLA === 'breached') {
+		g_form.getControl('impact').style.backgroundColor = 'red';
+	} else if (assessmentSLA === 'assessment_complete') {
+		g_form.getControl('impact').style.backgroundColor = 'green';
+	} else {
+		g_form.getControl('notification_sla_status').style.backgroundColor = '';
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>Highlight NDB SLA Status field</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-01 11:47:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd98b57d8303cb5044779cb6feaad347</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Highlight NDB SLA Status field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_ui_policy_fd98b57d8303cb5044779cb6feaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-01 12:10:55</sys_updated_on>
+        <table>x_1776078_cyber_0_cyber_incident</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>17118310ff778618c812f8e4fc4fd900</instance_id>
+        <instance_name>dev284160</instance_name>
+        <name>sys_ui_policy_fd98b57d8303cb5044779cb6feaad347</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1776078_cyber_0_cyber_incident"&gt;notification_sla_statusANYTHING^EQ&lt;item display_value="-- None --" endquery="false" field="notification_sla_status" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;200&lt;/order&gt;&lt;reverse_if_false&gt;false&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	var assessmentSLA = g_form.getValue('notification_sla_status');
+	if (assessmentSLA === 'at_risk') {
+		g_form.getControl('notification_sla_status').style.backgroundColor = 'yellow';
+	} else if (assessmentSLA === 'breached') {
+		g_form.getControl('impact').style.backgroundColor = 'red';
+	} else if (assessmentSLA === 'assessment_complete') {
+		g_form.getControl('impact').style.backgroundColor = 'green';
+	} else {
+		g_form.getControl('notification_sla_status').style.backgroundColor = '';
+	}
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Highlight NDB SLA Status field&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-01 11:47:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fd98b57d8303cb5044779cb6feaad347&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Highlight NDB SLA Status field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0"&gt;9c0eda15c31d03102d84f44ed4013148&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Cyber Incident Management"&gt;9c0eda15c31d03102d84f44ed4013148&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_fd98b57d8303cb5044779cb6feaad347&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-01 12:10:55&lt;/sys_updated_on&gt;&lt;table&gt;x_1776078_cyber_0_cyber_incident&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1118170392</payload_hash>
+        <record_name>Highlight NDB SLA Status field</record_name>
+        <reverted_from/>
+        <source>93ec9d31834f8b5044779cb6feaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-01 12:10:55</sys_created_on>
+        <sys_id>506006b98343cb5044779cb6feaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a05ce12bd10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-01 12:10:55</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>9c6006b99a43cb5069dcb647cb915c99</update_guid>
+        <update_guid_history>9c6006b99a43cb5069dcb647cb915c99:1118170392,1a1f35f95b43cb50fa882e028e8122a5:-2010352484,936db5f56e43cb509e3df0e1d4ad1fa1:-1463117281,3c1dfdb52943cb50ba0a3fffa8bbd378:1795438921,8ecc75b52343cb50980c65bda6d97037:1350016249,778c3d756c43cb50404fd048b40bcfba:-1996601001,9c6cb5751143cb503ac5a82a8e428910:-2123705386,7beb3535ad43cb50299566aa86c172a2:-2010352484,066bfdb10143cb50cb68c937de6a3a5d:1987395541,7efa75b19643cb50697e05a9aa83bade:-2052238058</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-01 12:16:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>3a2fe8ebca864c72938b20de011e3be1</sys_id>
+        <sys_metadata>fd98b57d8303cb5044779cb6feaad347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Highlight NDB SLA Status field</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent display_value="Cyber Incident">39022e1dc31d03102d84f44ed4013130</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_fd98b57d8303cb5044779cb6feaad347</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_fd98b57d8303cb5044779cb6feaad347">506006b98343cb5044779cb6feaad39b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-01 12:16:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
