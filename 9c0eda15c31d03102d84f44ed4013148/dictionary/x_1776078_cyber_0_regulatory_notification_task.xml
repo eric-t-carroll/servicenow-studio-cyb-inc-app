@@ -18,7 +18,13 @@
                 <element inactive_on_update="false" label="Relevant" sequence="1" value="relevant"/>
             </choice>
         </element>
-        <element label="Notification deadline" max_length="40" name="notification_deadline" type="due_date"/>
+        <element choice="1" label="Notification SLA Status" max_length="40" name="notification_deadline" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Breached" sequence="2" value="breached"/>
+                <element inactive_on_update="false" label="At Risk" sequence="1" value="at_risk"/>
+                <element inactive_on_update="false" label="On Track" sequence="0" value="on_track"/>
+            </choice>
+        </element>
         <element choice="1" label="Notification type" mandatory="true" max_length="40" name="notification_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="ASD / SOCI Notification" sequence="0" value="asd_soci_notification"/>
