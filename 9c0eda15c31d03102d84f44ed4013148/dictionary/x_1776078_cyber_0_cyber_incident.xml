@@ -8,7 +8,7 @@
                 <element inactive_on_update="false" label="Awaiting forensics" sequence="1" value="awaiting_forensics"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Resolved by" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Resolved by" max_length="32" name="resolved_by" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Threat category" max_length="40" name="threat_category" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="Business email compromise" sequence="4" value="bec"/>
@@ -35,7 +35,7 @@
         <element label="Date/Time Became Aware" mandatory="true" max_length="255" name="date_time_became_aware" type="glide_date_time"/>
         <element label="MITRE ATT&amp;CK tactic" max_length="100" name="mitre_att_ck_tactic" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Persistent threat" max_length="255" name="persistent_threat" type="boolean"/>
-        <element label="Resolved" max_length="40" name="resolved" type="glide_date_time"/>
+        <element label="Resolved" max_length="40" name="resolved" read_only="true" type="glide_date_time"/>
         <element choice="1" label="Affected asset type" max_length="40" name="affected_asset_type" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="Regulated / Essential Services" sequence="10" value="regulated_essential_services"/>
@@ -116,13 +116,13 @@
         </element>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Containment notes" max_length="4000" name="containment_notes" type="string_full_utf8"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Close code" max_length="40" name="close_code" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Resolution code" max_length="40" name="close_code" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Unresolved" sequence="5" value="unresolved"/>
-                <element inactive_on_update="false" label="Resolved by vendor" sequence="4" value="vendor_resolved"/>
-                <element inactive_on_update="false" label="Handed to law enforcement" sequence="3" value="law_enforcement"/>
-                <element inactive_on_update="false" label="False positive" sequence="2" value="false_positive"/>
-                <element inactive_on_update="false" label="Threat neutralised" sequence="1" value="threat_neutralised"/>
+                <element inactive_on_update="false" label="Unresolved" sequence="4" value="unresolved"/>
+                <element inactive_on_update="false" label="Resolved by vendor" sequence="3" value="vendor_resolved"/>
+                <element inactive_on_update="false" label="Handed to law enforcement" sequence="2" value="law_enforcement"/>
+                <element inactive_on_update="false" label="False positive" sequence="1" value="false_positive"/>
+                <element inactive_on_update="false" label="Threat neutralised" sequence="0" value="threat_neutralised"/>
             </choice>
         </element>
         <element choice="3" default="Pending Assessment" label="Eligible Data Breach Determination" max_length="40" name="eligible_data_breach_determination" type="choice">
