@@ -15,12 +15,13 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_1776078_cyber_0_cyber_incident">stateCHANGESTO3^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+        <filter_condition table="x_1776078_cyber_0_cyber_incident">stateCHANGESTO3^ORstateCHANGESTO4^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Prevent close while active REG</name>
+        <name>Stop resolve and close with active REG</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -37,13 +38,14 @@
 	var activeRegOr = activeReg.addQuery('state', '-5');
 	activeRegOr.addOrCondition('state', '1');
 	activeRegOr.addOrCondition('state', '2');
+	activeRegOr.addOrCondition('state', '6');
 	activeRegOr.addOrCondition('state', '5');
 	activeReg.setLimit(1);
 	activeReg.query();
 
 	//if active REG exists prevent save and let the user know why
 	if(activeReg.next()) {
-		gs.addErrorMessage('You must complete all child regulatory notification tasks before closing this cyber incident.');
+		gs.addErrorMessage('You must complete all child regulatory notification tasks before resolving this cyber incident.');
 		current.setAbortAction(true);
 	}
 
@@ -54,15 +56,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f42387d683668b1044779cb6feaad3cb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Prevent close while active REG</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Stop resolve and close with active REG</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
         <sys_policy/>
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>sys_script_f42387d683668b1044779cb6feaad3cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-26 12:39:44</sys_updated_on>
+        <sys_updated_on>2026-09-02 10:07:00</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
