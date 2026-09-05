@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="08c97f2a8303839044779cb6feaad3f7" extends="dl_matcher" label="Priority Lookup" max_length="40" name="x_1776078_cyber_0_priority_lookup" type="collection">
+        <element choice="3" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="I1 — Full outage" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="I3 — Error, not preventing delivery of service" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="I2 — Widespread degradation" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="I4 — No impact/informational" sequence="40" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" default="low" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3 - Low" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="2 - Medium" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="1 - High" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3 - Moderate" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="2 - High" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="1 - Critical" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="4 - Low" sequence="3" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>
