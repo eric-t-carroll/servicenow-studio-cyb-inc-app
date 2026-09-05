@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition">
+    <dl_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <matcher_table>x_1776078_cyber_0_priority_lookup</matcher_table>
+        <name>CYB Impact vs Urgency = Priority</name>
+        <run_on_form_change>true</run_on_form_change>
+        <run_on_insert>true</run_on_insert>
+        <run_on_update>true</run_on_update>
+        <source_table>x_1776078_cyber_0_cyber_incident</source_table>
+        <sys_class_name>dl_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 05:08:37</sys_created_on>
+        <sys_id>022cbfae8303839044779cb6feaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CYB Impact vs Urgency = Priority</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>dl_definition_022cbfae8303839044779cb6feaad351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 05:08:37</sys_updated_on>
+    </dl_definition>
+</record_update>
