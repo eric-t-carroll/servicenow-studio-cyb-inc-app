@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>ignore</disabled>
+        <field>close_notes</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-06 09:29:48</sys_created_on>
+        <sys_data_policy display_value="Mandatory when Resolved state">97ba0fdb838bc79044779cb6feaad389</sys_data_policy>
+        <sys_id>0a6b8b1f838bc79044779cb6feaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close_notes</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_data_policy_rule_0a6b8b1f838bc79044779cb6feaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-06 09:29:48</sys_updated_on>
+        <table>x_1776078_cyber_0_cyber_incident</table>
+    </sys_data_policy_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>17118310ff778618c812f8e4fc4fd900</instance_id>
+        <instance_name>dev284160</instance_name>
+        <name>sys_data_policy_rule_0a6b8b1f838bc79044779cb6feaad305</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule"><sys_data_policy_rule action="INSERT_OR_UPDATE"><disabled>ignore</disabled><field>close_notes</field><mandatory>true</mandatory><sys_class_name>sys_data_policy_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-06 09:29:48</sys_created_on><sys_data_policy display_value="Mandatory when Resolved state">97ba0fdb838bc79044779cb6feaad389</sys_data_policy><sys_id>0a6b8b1f838bc79044779cb6feaad305</sys_id><sys_mod_count>0</sys_mod_count><sys_name>close_notes</sys_name><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_update_name>sys_data_policy_rule_0a6b8b1f838bc79044779cb6feaad305</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-06 09:29:48</sys_updated_on><table>x_1776078_cyber_0_cyber_incident</table></sys_data_policy_rule></record_update>]]></payload>
+        <payload_hash>1542646961</payload_hash>
+        <record_name>close_notes</record_name>
+        <reverted_from/>
+        <source>c4891a938307c79044779cb6feaad395</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-06 09:29:48</sys_created_on>
+        <sys_id>fc7b875f838bc79044779cb6feaad319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0760d73ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-06 09:29:48</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>bc7b875fd18bc790c237227048683718</update_guid>
+        <update_guid_history>bc7b875fd18bc790c237227048683718:1542646961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 11:25:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>9f8cd696fc23430e825004ff50844e64</sys_id>
+        <sys_metadata>0a6b8b1f838bc79044779cb6feaad305</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close_notes</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent display_value="Mandatory when Resolved state and not False Positive">97ba0fdb838bc79044779cb6feaad389</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_0a6b8b1f838bc79044779cb6feaad305</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_0a6b8b1f838bc79044779cb6feaad305">fc7b875f838bc79044779cb6feaad319</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 11:25:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -62,6 +62,7 @@
                 <element inactive_on_update="false" label="Vulnerability exploit" sequence="3" value="vuln_exploit"/>
             </choice>
         </element>
+        <element label="Pre hold state" max_length="40" name="pre_hold_state" read_only="true" type="string"/>
         <element label="Ransom/Extortion Payment Made" max_length="255" name="ransom_extortion_payment_made" type="boolean"/>
         <element choice="1" label="Suggested SOCI Classification" max_length="40" name="suggested_soci_classification" read_only="true" type="choice">
             <choice>
