@@ -15,13 +15,14 @@
         return;
     }
     if (newValue === '1' || newValue === '2') {
-        var gm = new GlideModal("glide_confirm_standard", true, 600);
-        gm.setTitle("All priority 1 and priority 2 major incidents must be assessed and managed by the MIM team. Click 'okay' to confirm you are calling the MIM team on 01-123-123.");
-        gm.setPreference("onPromptComplete", function() {});
-        gm.setPreference("onPromptCancel", function() {
+        var dialog = new GlideModal("glide_confirm_standard", true, 600);
+		dialog.setTitle('Confirm MIM engagement');
+        dialog.setPreference('title', "All priority 1 and priority 2 major incidents must be assessed and managed by the MIM team. Click 'okay' to confirm you have called the MIM team on 01-123-123.");
+        dialog.setPreference("onPromptComplete", function() {});
+        dialog.setPreference("onPromptCancel", function() {
             return false;
         });
-        gm.render();
+        dialog.render();
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -30,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1d590438307079044779cb6feaad302</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Major CYB Prompt</sys_name>
         <sys_overrides/>
         <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
@@ -38,7 +39,7 @@
         <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
         <sys_update_name>sys_script_client_f1d590438307079044779cb6feaad302</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-06 08:52:32</sys_updated_on>
+        <sys_updated_on>2026-09-07 10:28:14</sys_updated_on>
         <table>x_1776078_cyber_0_cyber_incident</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
