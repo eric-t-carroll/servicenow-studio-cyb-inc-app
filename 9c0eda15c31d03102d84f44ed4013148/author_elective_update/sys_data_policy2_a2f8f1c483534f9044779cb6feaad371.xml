@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_1776078_cyber_0_regulatory_notification_task</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Unable to move to Pending state manually</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 11:25:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a2f8f1c483534f9044779cb6feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unable to move to Pending state manually</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_data_policy2_a2f8f1c483534f9044779cb6feaad371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 11:25:22</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>17118310ff778618c812f8e4fc4fd900</instance_id>
+        <instance_name>dev284160</instance_name>
+        <name>sys_data_policy2_a2f8f1c483534f9044779cb6feaad371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_1776078_cyber_0_regulatory_notification_task</model_table><reverse_if_false>true</reverse_if_false><short_description>Unable to move to Pending state manually</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 11:25:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a2f8f1c483534f9044779cb6feaad371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Unable to move to Pending state manually</sys_name><sys_overrides/><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_update_name>sys_data_policy2_a2f8f1c483534f9044779cb6feaad371</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 11:25:22</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>1889227402</payload_hash>
+        <record_name>Unable to move to Pending state manually</record_name>
+        <reverted_from/>
+        <source>9e9fac4c83d70f9044779cb6feaad31c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 11:25:22</sys_created_on>
+        <sys_id>9119f5c483534f9044779cb6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a080c3fa4f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 11:25:22</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>dd19f5c49f534f90f94b6db49e426449</update_guid>
+        <update_guid_history>dd19f5c49f534f90f94b6db49e426449:1889227402</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 11:25:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>4de9a799f5dc48e0ad92a1f6a54f4040</sys_id>
+        <sys_metadata>a2f8f1c483534f9044779cb6feaad371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unable to move to Pending state manually</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent display_value="Regulatory Notification Task">8e14924483aa8b1044779cb6feaad3f7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_a2f8f1c483534f9044779cb6feaad371</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_a2f8f1c483534f9044779cb6feaad371">9119f5c483534f9044779cb6feaad34b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 11:25:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
