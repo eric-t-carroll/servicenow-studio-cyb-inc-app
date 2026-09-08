@@ -20,7 +20,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Pending</label>
+            <label>Pending Approval</label>
             <language>en</language>
             <name>x_1776078_cyber_0_regulatory_notification_task</name>
             <sequence>0</sequence>
@@ -29,9 +29,9 @@
             <sys_created_on>2026-08-05 12:16:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-25 10:59:33</sys_updated_on>
+            <sys_updated_on>2026-09-08 11:12:51</sys_updated_on>
             <value>-5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,9 +48,9 @@
             <sys_created_on>2026-08-05 12:17:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-05 12:17:08</sys_updated_on>
+            <sys_updated_on>2026-09-08 11:02:48</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>soci_classification</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 10:52:48</sys_created_on>
+        <sys_id>de81318483134f9044779cb6feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>soci_classification</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_ui_policy_action_de81318483134f9044779cb6feaad345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 10:52:48</sys_updated_on>
+        <table>x_1776078_cyber_0_regulatory_notification_task</table>
+        <ui_policy display_value="Field and state chouce (Oral Notification Complete) only visible on SOCI REG">6c5e692b83be0b1044779cb6feaad373</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=de81318483134f9044779cb6feaad345"/>
+</record_update>
