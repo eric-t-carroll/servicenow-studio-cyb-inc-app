@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="eligible_data_breach_determination" label="Eligible Data Breach Determination" language="en" table="x_1776078_cyber_0_cyber_incident">
+    <sys_documentation element="eligible_data_breach_determination" label="Eligible data breach determination" language="en" table="x_1776078_cyber_0_cyber_incident">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>eligible_data_breach_determination</element>
             <help/>
             <hint/>
-            <label>Eligible Data Breach Determination</label>
+            <label>Eligible data breach determination</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-21 10:23:07</sys_created_on>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_name>Eligible Data Breach Determination</sys_name>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>Eligible data breach determination</sys_name>
             <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
             <sys_policy/>
             <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
             <sys_update_name>sys_documentation_x_1776078_cyber_0_cyber_incident_eligible_data_breach_determination_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-27 11:48:51</sys_updated_on>
+            <sys_updated_on>2026-09-09 12:19:20</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

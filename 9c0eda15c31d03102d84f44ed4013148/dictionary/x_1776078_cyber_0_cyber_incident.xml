@@ -9,22 +9,22 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Resolved by" max_length="32" name="resolved_by" read_only="true" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Threat category" max_length="40" name="threat_category" type="glide_list">
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Threat category" max_length="40" name="threat_category" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Business email compromise" sequence="4" value="bec"/>
-                <element inactive_on_update="false" label="Denial of service" sequence="3" value="denial_of_service"/>
-                <element inactive_on_update="false" label="Data breach" sequence="2" value="data_breach"/>
-                <element inactive_on_update="false" label="Phishing" sequence="0" value="Phishing"/>
-                <element inactive_on_update="false" label="Ransomware" sequence="1" value="ransomware"/>
-                <element inactive_on_update="false" label="Not determined" sequence="7" value="not_determined"/>
+                <element inactive_on_update="false" label="Business email compromise" sequence="5" value="bec"/>
+                <element inactive_on_update="false" label="Unauthorised access" sequence="7" value="unauthorised_access"/>
+                <element inactive_on_update="false" label="Data breach" sequence="3" value="data_breach"/>
+                <element inactive_on_update="false" label="Supply chain compromise" sequence="6" value="supply_chain"/>
+                <element inactive_on_update="false" label="Denial of service" sequence="4" value="denial_of_service"/>
+                <element inactive_on_update="false" label="Phishing" sequence="1" value="Phishing"/>
+                <element inactive_on_update="false" label="Ransomware" sequence="2" value="ransomware"/>
+                <element inactive_on_update="false" label="Not determined" sequence="8" value="not_determined"/>
                 <element inactive_on_update="false" label="Malware" sequence="0" value="Malware"/>
-                <element inactive_on_update="false" label="Unauthorised access" sequence="6" value="unauthorised_access"/>
-                <element inactive_on_update="false" label="Supply chain compromise" sequence="5" value="supply_chain"/>
             </choice>
         </element>
         <element label="Awareness Basis" max_length="4000" name="awareness_basis" type="string"/>
-        <element label="Acknowledged Time" max_length="255" name="acknowledged_time" type="glide_date_time"/>
-        <element choice="1" function_definition="No Active Notifications" label="NDB Assessment SLA Status" max_length="40" name="notification_sla_status" read_only="true" type="choice">
+        <element label="Acknowledged time" max_length="255" name="acknowledged_time" type="glide_date_time"/>
+        <element choice="1" function_definition="No Active Notifications" label="NDB Assessment SLA status" max_length="40" name="notification_sla_status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="On Track" sequence="0" value="on_track"/>
                 <element inactive_on_update="false" label="Assessment Complete" sequence="3" value="assessment_complete"/>
@@ -32,7 +32,7 @@
                 <element inactive_on_update="false" label="Breached" sequence="2" value="breached"/>
             </choice>
         </element>
-        <element label="Date/Time Became Aware" mandatory="true" max_length="255" name="date_time_became_aware" type="glide_date_time"/>
+        <element label="Date / time became aware" mandatory="true" max_length="255" name="date_time_became_aware" type="glide_date_time"/>
         <element label="MITRE ATT&amp;CK tactic" max_length="100" name="mitre_att_ck_tactic" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Persistent threat" max_length="255" name="persistent_threat" type="boolean"/>
         <element label="Resolved" max_length="40" name="resolved" read_only="true" type="glide_date_time"/>
@@ -51,27 +51,50 @@
                 <element inactive_on_update="false" label="Hacktivist" sequence="3" value="hacktivist"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Attack vector" max_length="40" name="attack_vector" type="glide_list">
-            <choice>
-                <element inactive_on_update="false" label="Phishing" sequence="1" value="phishing"/>
-                <element inactive_on_update="false" label="Unknown" sequence="7" value="unknown"/>
-                <element inactive_on_update="false" label="Removable media" sequence="5" value="removable_media"/>
-                <element inactive_on_update="false" label="Third-party" sequence="6" value="third_party"/>
-                <element inactive_on_update="false" label="Credential stuffing" sequence="2" value="credential_stuffing"/>
-                <element inactive_on_update="false" label="Insider threat" sequence="4" value="insider_threat"/>
-                <element inactive_on_update="false" label="Vulnerability exploit" sequence="3" value="vuln_exploit"/>
-            </choice>
-        </element>
         <element label="Pre hold state" max_length="40" name="pre_hold_state" read_only="true" type="string"/>
-        <element label="Ransom/Extortion Payment Made" max_length="255" name="ransom_extortion_payment_made" type="boolean"/>
-        <element choice="1" label="Suggested SOCI Classification" max_length="40" name="suggested_soci_classification" read_only="true" type="choice">
+        <element label="Ransom / extortion payment made" max_length="255" name="ransom_extortion_payment_made" type="boolean"/>
+        <element choice="1" label="Suggested SOCI classification" max_length="40" name="suggested_soci_classification" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Significant" sequence="0" value="significant"/>
                 <element inactive_on_update="false" label="Relevant" sequence="1" value="relevant"/>
                 <element inactive_on_update="false" label="No Report" sequence="2" value="no_report"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="ACSC Incident Severity" max_length="40" name="acsc_incident_severity" type="choice">
+        <element choice="3" dependent="threat_category" dependent_on_field="threat_category" label="Attack vector" max_length="40" name="attack_vector" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="denial_of_service" inactive_on_update="false" label="Application layer flooding" sequence="8" value="Application layer flooding"/>
+                <element dependent_value="unauthorised_access" inactive_on_update="false" label="Credential stuffing" sequence="3" value="Credential stuffing"/>
+                <element dependent_value="bec" inactive_on_update="false" label="Email spoofing" sequence="4" value="Email spoofing"/>
+                <element dependent_value="data_breach" inactive_on_update="false" label="Brute force attack" sequence="9" value="Brute force attack"/>
+                <element dependent_value="data_breach" inactive_on_update="false" label="Security misconfiguration" sequence="25" value="Security misconfiguration"/>
+                <element dependent_value="data_breach" inactive_on_update="false" label="Vulnerability exploit" sequence="21" value="Vulnerability exploit"/>
+                <element dependent_value="data_breach" inactive_on_update="false" label="Session hijacking" sequence="27" value="Session hijacking"/>
+                <element dependent_value="ransomware" inactive_on_update="false" label="Drive by download" sequence="12" value="Drive by download"/>
+                <element dependent_value="denial_of_service" inactive_on_update="false" label="Botnet" sequence="0" value="Botnet"/>
+                <element dependent_value="ransomware" inactive_on_update="false" label="Infected removable media" sequence="17" value="Infected removable media"/>
+                <element dependent_value="bec" inactive_on_update="false" label="Deepfake" sequence="23" value="Deepfake"/>
+                <element dependent_value="Malware" inactive_on_update="false" label="Drive by download" sequence="11" value="Drive by download"/>
+                <element dependent_value="Phishing" inactive_on_update="false" label="Email spoofing" sequence="5" value="Email spoofing"/>
+                <element dependent_value="Malware" inactive_on_update="false" label="Infected removable media" sequence="16" value="Infected removable media"/>
+                <element dependent_value="not_determined" inactive_on_update="false" label="Not determined" sequence="0" value="Not determined"/>
+                <element dependent_value="bec" inactive_on_update="false" label="Look alike domain" sequence="13" value="Look alike domain"/>
+                <element dependent_value="bec" inactive_on_update="false" label="Smishing" sequence="19" value="Smishing"/>
+                <element dependent_value="data_breach" inactive_on_update="false" label="Credential stuffing" sequence="2" value="Credential stuffing"/>
+                <element dependent_value="Phishing" inactive_on_update="false" label="Look alike domain" sequence="14" value="Look alike domain"/>
+                <element dependent_value="Phishing" inactive_on_update="false" label="Deepfake" sequence="24" value="Deepfake"/>
+                <element dependent_value="Malware" inactive_on_update="false" label="Malicious email attachment" sequence="6" value="Malicious email attachment"/>
+                <element dependent_value="Phishing" inactive_on_update="false" label="Smishing" sequence="20" value="Smishing"/>
+                <element dependent_value="ransomware" inactive_on_update="false" label="Malicious email attachment" sequence="7" value="Malicious email attachment"/>
+                <element dependent_value="supply_chain" inactive_on_update="false" label="Trusted vendor pivot" sequence="15" value="Trusted vendor pivot"/>
+                <element dependent_value="supply_chain" inactive_on_update="false" label="Compromised software updates" sequence="1" value="Compromised software updates"/>
+                <element dependent_value="supply_chain" inactive_on_update="false" label="Malicious open source dependency" sequence="18" value="Malicious open source dependency"/>
+                <element dependent_value="unauthorised_access" inactive_on_update="false" label="Brute force attack" sequence="10" value="Brute force attack"/>
+                <element dependent_value="unauthorised_access" inactive_on_update="false" label="Security misconfiguration" sequence="26" value="Security misconfiguration"/>
+                <element dependent_value="unauthorised_access" inactive_on_update="false" label="Vulnerability exploit" sequence="22" value="Vulnerability exploit"/>
+                <element dependent_value="unauthorised_access" inactive_on_update="false" label="Session hijacking" sequence="28" value="Session hijacking"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ACSC incident severity" max_length="40" name="acsc_incident_severity" type="choice">
             <choice>
                 <element hint="Select for a low-level malicious attack with limited scope and no confirmed compromise." inactive_on_update="false" label="C4 - Low-Level Attack" sequence="3" value="c4"/>
                 <element hint="Select when compromise is broad across systems, accounts, or data, but essential services are not yet experiencing sustained disruption." inactive_on_update="false" label="C2 - Extensive Compromise" sequence="1" value="c2"/>
@@ -100,8 +123,8 @@
                 <element inactive_on_update="false" label="Firewall rule" sequence="5" value="firewall_rule"/>
             </choice>
         </element>
-        <element label="Ransom/Extortion Demand Resolved" max_length="255" name="ransom_extortion_demand_resolved" type="boolean"/>
-        <element label="Payment Date/Time" max_length="255" name="payment_date_time" type="glide_date_time"/>
+        <element label="Ransom / extortion demand resolved" max_length="255" name="ransom_extortion_demand_resolved" type="boolean"/>
+        <element label="Ransomware payment date / time" max_length="255" name="payment_date_time" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="ACSC Essential Eight control gap" max_length="40" name="acsc_essential_eight_control_gap" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="OS patching" sequence="2" value="os_patching"/>
@@ -126,7 +149,7 @@
                 <element inactive_on_update="false" label="Threat neutralised" sequence="0" value="threat_neutralised"/>
             </choice>
         </element>
-        <element choice="3" default="Pending Assessment" label="Eligible Data Breach Determination" max_length="40" name="eligible_data_breach_determination" type="choice">
+        <element choice="3" default="Pending Assessment" label="Eligible data breach determination" max_length="40" name="eligible_data_breach_determination" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Not Eligible – Remediated" sequence="2" value="not_eligible_remediated"/>
                 <element inactive_on_update="false" label="Eligible" sequence="1" value="eligible"/>

@@ -16,26 +16,64 @@
             <sys_updated_on>2026-06-05 02:15:03</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>denial_of_service</dependent_value>
             <element>attack_vector</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Phishing</label>
+            <label>Botnet</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:39:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:39:06</sys_updated_on>
+            <value>Botnet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>not_determined</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not determined</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 12:27:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 12:27:02</sys_updated_on>
+            <value>Not determined</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>supply_chain</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Compromised software updates</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:15:03</sys_created_on>
+            <sys_created_on>2026-09-09 11:40:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:15:03</sys_updated_on>
-            <value>phishing</value>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Compromised software updates</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>data_breach</dependent_value>
             <element>attack_vector</element>
             <hint/>
             <inactive>false</inactive>
@@ -45,108 +83,507 @@
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:15:21</sys_created_on>
+            <sys_created_on>2026-09-09 11:35:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:15:21</sys_updated_on>
-            <value>credential_stuffing</value>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Credential stuffing</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>unauthorised_access</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Credential stuffing</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:38:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Credential stuffing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>bec</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email spoofing</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:34:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:37</sys_updated_on>
+            <value>Email spoofing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Phishing</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email spoofing</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:33:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Email spoofing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Malware</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malicious email attachment</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:32:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Malicious email attachment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ransomware</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malicious email attachment</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:32:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:41</sys_updated_on>
+            <value>Malicious email attachment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>denial_of_service</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application layer flooding</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:39:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:41</sys_updated_on>
+            <value>Application layer flooding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>data_breach</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brute force attack</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:35:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Brute force attack</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unauthorised_access</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brute force attack</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:38:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Brute force attack</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Malware</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Drive by download</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:32:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:41</sys_updated_on>
+            <value>Drive by download</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ransomware</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Drive by download</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:32:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:41</sys_updated_on>
+            <value>Drive by download</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>bec</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Look alike domain</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:34:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:37</sys_updated_on>
+            <value>Look alike domain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Phishing</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Look alike domain</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:33:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Look alike domain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>supply_chain</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trusted vendor pivot</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:40:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Trusted vendor pivot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Malware</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Infected removable media</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:32:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:41</sys_updated_on>
+            <value>Infected removable media</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>ransomware</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Infected removable media</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:32:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:41</sys_updated_on>
+            <value>Infected removable media</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>supply_chain</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malicious open source dependency</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:40:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Malicious open source dependency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>bec</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Smishing</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:34:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:38</sys_updated_on>
+            <value>Smishing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Phishing</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Smishing</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:33:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Smishing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>data_breach</dependent_value>
             <element>attack_vector</element>
             <hint/>
             <inactive>false</inactive>
             <label>Vulnerability exploit</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
-            <sequence>3</sequence>
+            <sequence>21</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:15:49</sys_created_on>
+            <sys_created_on>2026-09-09 11:35:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:15:49</sys_updated_on>
-            <value>vuln_exploit</value>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Vulnerability exploit</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>unauthorised_access</dependent_value>
             <element>attack_vector</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Insider threat</label>
+            <label>Vulnerability exploit</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
-            <sequence>4</sequence>
+            <sequence>22</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:16:06</sys_created_on>
+            <sys_created_on>2026-09-09 11:38:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:16:06</sys_updated_on>
-            <value>insider_threat</value>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Vulnerability exploit</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>bec</dependent_value>
             <element>attack_vector</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Removable media</label>
+            <label>Deepfake</label>
             <language>en</language>
             <name>x_1776078_cyber_0_cyber_incident</name>
-            <sequence>5</sequence>
+            <sequence>23</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:16:31</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:16:31</sys_updated_on>
-            <value>removable_media</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>attack_vector</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Third-party</label>
-            <language>en</language>
-            <name>x_1776078_cyber_0_cyber_incident</name>
-            <sequence>6</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 02:16:53</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 02:16:53</sys_updated_on>
-            <value>third_party</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>attack_vector</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Unknown</label>
-            <language>en</language>
-            <name>x_1776078_cyber_0_cyber_incident</name>
-            <sequence>7</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-16 05:03:58</sys_created_on>
+            <sys_created_on>2026-09-09 11:34:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-16 05:04:03</sys_updated_on>
-            <value>unknown</value>
+            <sys_updated_on>2026-09-09 11:46:38</sys_updated_on>
+            <value>Deepfake</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Phishing</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deepfake</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:33:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:39</sys_updated_on>
+            <value>Deepfake</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>data_breach</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security misconfiguration</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:35:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Security misconfiguration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unauthorised_access</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security misconfiguration</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:38:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Security misconfiguration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>data_breach</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Session hijacking</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>27</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:35:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Session hijacking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unauthorised_access</dependent_value>
+            <element>attack_vector</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Session hijacking</label>
+            <language>en</language>
+            <name>x_1776078_cyber_0_cyber_incident</name>
+            <sequence>28</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-09 11:38:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-09 11:46:40</sys_updated_on>
+            <value>Session hijacking</value>
         </sys_choice>
     </sys_choice>
 </record_update>
