@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>payment_date_time</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 11:56:19</sys_created_on>
+        <sys_id>5ba94f548317031044779cb6feaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>payment_date_time</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5ba94f548317031044779cb6feaad339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 11:56:19</sys_updated_on>
+        <table>x_1776078_cyber_0_cyber_incident</table>
+        <ui_policy display_value="Ransomware date time visible on tick">f67987548317031044779cb6feaad338</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=5ba94f548317031044779cb6feaad339"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>17118310ff778618c812f8e4fc4fd900</instance_id>
+        <instance_name>dev284160</instance_name>
+        <name>sys_ui_policy_action_5ba94f548317031044779cb6feaad339</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>payment_date_time</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-09 11:56:19</sys_created_on><sys_id>5ba94f548317031044779cb6feaad339</sys_id><sys_mod_count>0</sys_mod_count><sys_name>payment_date_time</sys_name><sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package><sys_policy/><sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope><sys_update_name>sys_ui_policy_action_5ba94f548317031044779cb6feaad339</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-09 11:56:19</sys_updated_on><table>x_1776078_cyber_0_cyber_incident</table><ui_policy display_value="Ransomware date time visible on tick">f67987548317031044779cb6feaad338</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=5ba94f548317031044779cb6feaad339"/></record_update>]]></payload>
+        <payload_hash>-707756589</payload_hash>
+        <record_name>payment_date_time</record_name>
+        <reverted_from/>
+        <source>2f74be908353031044779cb6feaad3e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 11:56:19</sys_created_on>
+        <sys_id>10c903948317031044779cb6feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a08606ab290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 11:56:19</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>dcc9039462170310a3810a831be9f51e</update_guid>
+        <update_guid_history>dcc9039462170310a3810a831be9f51e:-707756589</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-09 12:16:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>58da05543a8c4e8fba4dbac5a96fe779</sys_id>
+        <sys_metadata>5ba94f548317031044779cb6feaad339</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>payment_date_time</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_5ba94f548317031044779cb6feaad339</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_5ba94f548317031044779cb6feaad339">10c903948317031044779cb6feaad320</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-09 12:16:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
