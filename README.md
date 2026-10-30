@@ -1,6 +1,6 @@
 # servicenow-studio-cyb-inc-app
 
-ServiceNow Studio source control for my Cyber Incident Management scoped application. Studio commits here directly from my personal developer instance, so this repo always holds the current version of the application.
+ServiceNow Studio source control for my Cyber Incident Management scoped application. Studio commits here directly from my personal developer instance.
 
 **Full documentation is in [servicenow-updateset-cyb-inc-app](https://github.com/eric-t-carroll/servicenow-updateset-cyb-inc-app)**, including screenshots, design decisions, install steps, the lab index and build notes.
 
