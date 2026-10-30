@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Sample Incident staging</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1776078_cyber_0_sample_incident_staging</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 05:58:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29ad828c93549310036cf889dd03d6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sample Incident staging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_app_module_29ad828c93549310036cf889dd03d6f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 05:58:00</sys_updated_on>
+        <timeline_page/>
+        <title>Sample Incident staging</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</application>
+        <file_path/>
+        <instance_id>3eddb5bdff0a071cc80bf8e4fc4fd9b5</instance_id>
+        <instance_name>dev435289</instance_name>
+        <name>sys_app_module_29ad828c93549310036cf889dd03d6f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Sample Incident staging</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1776078_cyber_0_sample_incident_staging</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 05:58:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29ad828c93549310036cf889dd03d6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sample Incident staging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_update_name>sys_app_module_29ad828c93549310036cf889dd03d6f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 05:58:00</sys_updated_on>
+        <timeline_page/>
+        <title>Sample Incident staging</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1154070982</payload_hash>
+        <record_name>Sample Incident staging</record_name>
+        <reverted_from/>
+        <source>82ce2bacc39493100bd9d71d05013145</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-30 02:19:55</sys_created_on>
+        <sys_id>deee6720c3d493100bd9d71d050131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a18a9b4c6e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-30 02:19:55</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9eee672043d4931000d06108db920eaf</update_guid>
+        <update_guid_history>9eee672043d4931000d06108db920eaf:1154070982</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Sample Incident staging">7b9fa324c3d493100bd9d71d050131c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-30 02:23:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6a5fb0cccd724138b17653df8379a840</sys_id>
+        <sys_metadata>29ad828c93549310036cf889dd03d6f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sample Incident staging</sys_name>
+        <sys_package display_value="Cyber Incident Management" source="x_1776078_cyber_0">9c0eda15c31d03102d84f44ed4013148</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Cyber Incident Management">9c0eda15c31d03102d84f44ed4013148</sys_scope>
+        <sys_scope_delete display_value="">0d8f7a564bdb46e7b48aa2d1524ce849</sys_scope_delete>
+        <sys_update_name>sys_app_module_29ad828c93549310036cf889dd03d6f5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_29ad828c93549310036cf889dd03d6f5">deee6720c3d493100bd9d71d050131af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-30 02:23:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
